@@ -76,7 +76,13 @@
           alt="Navigation bar avatar"
           class="avatar-img"
           src="{{ site.avatar | relative_url }}"
-          style="width: 100px; height: 100px; object-fit: cover"
+          style="
+            width: 100px;
+            min-width: 100px;
+            height: 100px;
+            min-height: 100px;
+            object-fit: cover;
+          "
         />
       </a>
     </div>

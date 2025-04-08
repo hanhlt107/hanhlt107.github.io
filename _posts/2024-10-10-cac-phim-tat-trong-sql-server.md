@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Phím Tắt Hữu ích Trong SQL Server Management Studio (SSMS)
-subtitle: Làm Việc Thông Minh Hơn, Nhanh Hơn Với SSMS
+subtitle: 🎯 Làm Việc Thông Minh Hơn, Nhanh Hơn Với SSMS
 cover-img: /assets/img/code-sql.jpg
 thumbnail-img: /assets/img/sql-thumb.png
 share-img: /assets/img/sql.bin

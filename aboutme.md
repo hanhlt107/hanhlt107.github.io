@@ -9,7 +9,7 @@ Bạn là một fan cứng của **Marvel** nhưng không biết nên xem phim t
 
 💡 Đừng lo! Bài viết này sẽ giúp bạn xem **toàn bộ phim Marvel theo đúng dòng thời gian** để có trải nghiệm **hoàn hảo nhất!**
 
->🔥 Lưu ý: Danh sách này cập nhật đến năm 2027, bao gồm các bộ phim đã ra mắt và những phim sắp công chiếu!
+>🔥 Lưu ý: Danh sách này được cập nhật đến năm 2023 - đủ để bạn nắm bắt trọn vẹn câu chuyện trước khi bước vào những phần phim mới!
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 

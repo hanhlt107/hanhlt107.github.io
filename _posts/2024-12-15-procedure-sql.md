@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hướng Dẫn Toàn Diện Về Stored Procedure Trong SQL Server
-subtitle: Tối ưu hiệu năng và bảo mật trong xử lý dữ liệu với thủ tục lưu trữ
+subtitle: Tối ưu hiệu năng và bảo mật trong xử lý dữ liệu với Stored Procedure
 cover-img: /assets/img/code-sql.jpg
 thumbnail-img: /assets/img/sql-thumb.png
 share-img: /assets/img/sql.bin

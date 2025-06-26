@@ -5,7 +5,7 @@ subtitle: Hướng dẫn toàn diện, từ cơ bản đến nâng cao, giúp b�
 cover-img: /assets/img/code-sql.jpg
 thumbnail-img: /assets/img/sql-thumb.png
 share-img: /assets/img/sql.bin
-tags: [books, blogs, SQL Server]
+tags: [books, blogs, SQL Server, SQL]
 comments: true
 ---
 

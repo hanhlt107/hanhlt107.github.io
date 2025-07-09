@@ -68,6 +68,7 @@ Nếu bạn đang làm việc trong hệ thống quản lý sinh viên, quản l
 | <small>**AFTER Trigger**<small/>     | <small>Sau khi thao tác thành công<small/>         | <small>Dùng phổ biến để ghi log, hiển thị thông báo, gửi email, v.v.<small/>       |
 | <small>**INSTEAD OF Trigger**<small/>| <small>Thay thế hoàn toàn thao tác<small/>         | <small>Dùng để kiểm tra điều kiện trước khi thực hiện<small/>                      |
 | <small>**LOGIN Trigger**<small/>     | <small>Khi người dùng đăng nhập<small/>            | <small>Quản lý bảo mật, theo dõi đăng nhập, kiểm tra IP, v.v.<small/>             |
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 

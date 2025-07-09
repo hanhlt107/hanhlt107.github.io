@@ -17,21 +17,21 @@ Nếu bạn là một nhà phát triển SQL hoặc quản trị viên cơ sở 
 ### 🚀 1. Mở nhanh cửa sổ truy vấn mới
 * **Ctrl + N** – Tạo ngay một cửa sổ Query Editor mới để viết câu lệnh SQL.  
 
-![mo-cua-so-moi](/assets/img/mo-cua-so-moi.gif)
+![mo-cua-so-moi](/assets/img/mo-cua-so-moi.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
 ### 🔄 2. Chuyển đổi giữa các cửa sổ SQL
 * **Ctrl + Tab** – Dễ dàng chuyển đổi giữa các cửa sổ làm việc mà không cần dùng chuột.
 
-![cua-so-lam-viec](/assets/img/cua-so-lam-viec.gif)
+![cua-so-lam-viec](/assets/img/cua-so-lam-viec.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
 ### 📊 3. Ẩn/Hiện kết quả truy vấn
 * **Ctrl + R** – Tăng không gian làm việc bằng cách ẩn hoặc hiển thị kết quả truy vấn nhanh chóng.
 
-![an-ket-qua](/assets/img/an-ket-qua.gif)
+![an-ket-qua](/assets/img/an-ket-qua.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
@@ -44,14 +44,14 @@ Nếu bạn là một nhà phát triển SQL hoặc quản trị viên cơ sở 
 
 * **Ctrl + Break** – Dừng truy vấn ngay lập tức khi cần thiết.
 
-![chay-tung-cau-lenh](/assets/img/chay-tung-cau-lenh.gif)
+![chay-tung-cau-lenh](/assets/img/chay-tung-cau-lenh.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
 ### ❌ 5. Hủy bỏ truy vấn đang chạy
 * **Alt + Break** hoặc **Alt + Scroll Lock** – Hủy truy vấn khi mất quá nhiều thời gian để xử lý.
 
-![huy-bo-query-chay](/assets/img/huy-bo-query-chay.gif)
+![huy-bo-query-chay](/assets/img/huy-bo-query-chay.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
@@ -60,7 +60,7 @@ Nếu bạn là một nhà phát triển SQL hoặc quản trị viên cơ sở 
 
 * **Ctrl + Shift + L** – Chuyển văn bản thành chữ thường.
 
-![viet-hoa-thuong](/assets/img/viet-hoa-thuong.gif)
+![viet-hoa-thuong](/assets/img/viet-hoa-thuong.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
@@ -69,21 +69,21 @@ Nếu bạn là một nhà phát triển SQL hoặc quản trị viên cơ sở 
 
 * **Ctrl + M** – Xem chi tiết về hiệu suất của truy vấn khi chạy.
 
-![hien-thi-ket-qua-va-qua-trinh](/assets/img/hien-thi-ket-qua-va-qua-trinh.gif)
+![hien-thi-ket-qua-va-qua-trinh](/assets/img/hien-thi-ket-qua-va-qua-trinh.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
 ### 🤖 8. Gợi ý mã lệnh SQL thông minh
 * **Ctrl + Space** hoặc **Tab** – Gợi ý nhanh lệnh SQL, tên bảng, cột, giúp giảm lỗi nhập liệu.
 
-![goi-y](/assets/img/goi-y.gif)
+![goi-y](/assets/img/goi-y.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
 ### ⏩ 9. Di chuyển nhanh đến dòng mong muốn
 * **Ctrl + G** – Nhập số dòng và nhảy đến đó ngay lập tức.
 
-![chuyen-dong](/assets/img/chuyen-dong.gif)
+![chuyen-dong](/assets/img/chuyen-dong.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
@@ -92,7 +92,7 @@ Nếu bạn là một nhà phát triển SQL hoặc quản trị viên cơ sở 
 
 * **Ctrl + K + U** – Bỏ comment dễ dàng chỉ với một thao tác.
 
-![comment](/assets/img/comment.gif)
+![comment](/assets/img/comment.gif){: style="width: 100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 

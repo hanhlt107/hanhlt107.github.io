@@ -29,6 +29,7 @@ comments: true
 | <small>Hiệu suất cao<small/>          | <small>Được biên dịch sẵn, giảm chi phí phân tích lại câu lệnh<small/>             |
 | <small>Tách biệt xử lý<small/>             | <small>Giúp phân chia logic ứng dụng và dữ liệu rõ ràng<small/>                |
 | <small> Dễ bảo trì<small/>          | <small>Cập nhật logic xử lý không ảnh hưởng đến client<small/>              |
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
@@ -42,6 +43,7 @@ comments: true
 | <small> Không linh hoạt bằng code phía ứng dụng<small/>                    | <small>Hạn chế quyền truy cập trực tiếp vào bảng dữ liệu<small/>                |
 | <small> Gỡ lỗi (debug) khó khăn hơn<small/>          | <small>Được biên dịch sẵn, giảm chi phí phân tích lại câu lệnh<small/>             |
 | <small>Có thể gây "thắt cổ chai" nếu quá phức tạp<small/>             | <small>Giúp phân chia logic ứng dụng và dữ liệu rõ ràng<small/>                |
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
@@ -56,6 +58,7 @@ comments: true
 | <small>Cần kiểm soát quyền truy cập<small/>          | <small>Hạn chế user truy cập trực tiếp bảng<small/>             |
 | <small>Tối ưu hiệu suất<small/>             | <small>Với lượng truy vấn lớn, thủ tục được biên dịch trước<small/>                |
 | <small>Cần chia sẻ logic xử lý cho nhiều ứng dụng khác nhau<small/>          |              |
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
@@ -69,6 +72,7 @@ comments: true
 | <small>Tác vụ thử nghiệm nhỏ, đơn giản<small/>                    | <small>Không cần thiết phải tạo stored procedure<small/>                |
 | <small>Nhiều vòng lặp và logic động<small/>          | <small>Nên xử lý ở phía ứng dụng sẽ linh hoạt hơn<small/>             |
 | <small>Cần debug từng dòng<small/>             | <small>Stored Procedure không thân thiện cho debug từng bước<small/>                |
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 

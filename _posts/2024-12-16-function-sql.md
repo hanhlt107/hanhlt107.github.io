@@ -146,6 +146,7 @@ drop function chia_het
 | <small>**Gọi từ SELECT**<small/>                  | <small>Có thể gọi trực tiếp trong `SELECT`<small/>                            | <small>Không thể gọi từ `SELECT`, `WHERE`, `HAVING`<small/>                   |
 | <small>**Gọi Procedure khác**<small/>             | <small>Không gọi Procedure khác<small/>                                       | <small>Có thể gọi cả Procedure và Function khác<small/>                       |
 | <small>**Dùng trong JOIN**<small/>                | <small>Có thể dùng<small/>                                                    | <small>Không dùng được trực tiếp<small/>                                      |
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 

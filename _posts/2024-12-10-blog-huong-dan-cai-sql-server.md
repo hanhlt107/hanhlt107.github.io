@@ -39,7 +39,8 @@ Bài viết này sẽ hướng dẫn bạn từ **A** đến **Z** cách cài đ
 |-------------------------|--------------------------------------------------|------------------------------|
 | <small>**SQL Server Express**</small>  | <small>Nhẹ, giới hạn tài nguyên, miễn phí vĩnh viễn.</small>   | <small>Học tập, dự án nhỏ.</small>          |
 | <small>**SQL Server Developer**</small> | <small>Đầy đủ tính năng như bản Enterprise, miễn phí.</small> | <small>Lập trình viên, nghiên cứu.</small> |  
-  
+{: style="width:100%"}
+
 <div style="margin-top:16px"></div>
 
 📌 _Khuyên dùng bản **Developer** nếu bạn muốn trải nghiệm đầy đủ tính năng!_

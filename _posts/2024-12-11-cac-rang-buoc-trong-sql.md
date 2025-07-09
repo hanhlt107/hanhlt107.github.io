@@ -50,6 +50,7 @@ Trong bài viết này, chúng ta sẽ cùng khám phá:
 | <small>`AUTO_INCREMENT`</small>           | <small>Tự động tăng</small>      | <small>Tăng tự động mỗi khi thêm dòng</small>                             | <small>✔️ Dùng `IDENTITY` trong SQL Server </small>                  |
 | <small>`CHECK`</small>                    | <small>Kiểm tra điều kiện</small>| <small>Giới hạn giá trị hợp lệ</small>                                      | <small>✔️</small>                                                     |
 | <small>`DEFAULT`</small>                  | <small>Giá trị mặc định</small>  | <small>Gán giá trị nếu không nhập</small>                                  | <small>✔️</small>                                                     |
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
@@ -167,6 +168,7 @@ CREATE TABLE HoaDon (
 | <small>`CHAR` có dấu<small/>             | <small>`NCHAR` <small/>                |
 | <small>`AUTO_INCREMENT`<small/>          | <small>`IDENTITY`<small/>              |
 | <small>Không hỗ trợ `UNSIGNED`<small/>  | <small>❌</small>                       |
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 

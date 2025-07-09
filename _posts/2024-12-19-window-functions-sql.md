@@ -57,6 +57,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>3000<small/> | <small>15000<small/>|
 | <small>Dũng<small/> | <small>IT<small/> | <small>6000<small/> | <small>10000<small/>|
 | <small>Huy<small/> | <small>IT<small/> | <small>4000<small/> | <small>10000<small/>|
+{: style="width:100%"}
 
 <div style='margin-bottom:16px'></div>
 
@@ -94,6 +95,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>3000<small/> | <small>15000<small/>|
 | <small>Dũng<small/> | <small>IT<small/> | <small>6000<small/> | <small>6000<small/>|
 | <small>Huy<small/> | <small>IT<small/> | <small>4000<small/> | <small>10000<small/>|
+{: style="width:100%"}
 
 <div style='margin-bottom:16px'></div>
 
@@ -145,6 +147,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>6000<small/> | <small>3<small/> | <small>2<small/> |
 | <small>Dũng<small/> | <small>IT<small/> | <small>7000<small/> | <small>1<small/> | <small>1<small/> |
 | <small>Huy<small/> | <small>IT<small/> | <small>6800<small/> | <small>2<small/> | <small>2<small/> |
+{: style="width:100%"}
 
 <div style='margin-bottom:16px'></div>
 
@@ -196,6 +199,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>6000<small/> | <small>3<small/> | 
 | <small>Dũng<small/> | <small>IT<small/> | <small>7000<small/> | <small>1<small/> | 
 | <small>Huy<small/> | <small>IT<small/> | <small>6800<small/> | <small>2<small/> | 
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
@@ -230,6 +234,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>6000<small/> | <small>2<small/> | 
 | <small>Dũng<small/> | <small>IT<small/> | <small>7000<small/> | <small>1<small/> | 
 | <small>Huy<small/> | <small>IT<small/> | <small>6800<small/> | <small>2<small/> | 
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
@@ -260,6 +265,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>6000<small/> | <small>8000<small/> | 
 | <small>Dũng<small/> | <small>IT<small/> | <small>7000<small/> | <small>NULL<small/> | 
 | <small>Huy<small/> | <small>IT<small/> | <small>6800<small/> | <small>7000<small/> | 
+{: style="width:100%"}
 
 <div style='margin-bottom:16px'></div>
 
@@ -285,6 +291,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>6000<small/> | <small>NULL<small/> | 
 | <small>Dũng<small/> | <small>IT<small/> | <small>7000<small/> | <small>6800<small/> | 
 | <small>Huy<small/> | <small>IT<small/> | <small>6800<small/> | <small>NULL<small/> | 
+{: style="width:100%"}
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
@@ -312,6 +319,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>6000<small/> | <small>22000<small/> | 
 | <small>Dũng<small/> | <small>IT<small/> | <small>7000<small/> | <small>7000<small/> | 
 | <small>Huy<small/> | <small>IT<small/> | <small>6800<small/> | <small>13800<small/> | 
+{: style="width:100%"}
 
 <div style='margin-bottom:16px'></div>
 
@@ -351,6 +359,7 @@ FROM employees;
 | <small>Chi<small/> | <small>Sales<small/> | <small>6000<small/> | <small>7333.33<small/> | 
 | <small>Dũng<small/> | <small>IT<small/> | <small>7000<small/> | <small>7000.00<small/> | 
 | <small>Huy<small/> | <small>IT<small/> | <small>6800<small/> | <small>6900.00<small/> | 
+{: style="width:100%"}
 
 <div style='margin-bottom:16px'></div>
 

@@ -12,7 +12,7 @@ comments: true
 >***Tối ưu không đồng nghĩa với phức tạp. Hiểu đúng về chuẩn hoá, phi chuẩn hoá và cách sử dụng khoá chính - khoá ngoại sẽ giúp bạn thiết kế cơ sở dữ liệu ổn định, dễ mở rộng và hiệu năng cao.***
 
 ### 1. Chuẩn hoá là gì? Tại sao cần chuẩn hoá?
-**Chuẩn hoá (Normalization)** là quá trình tổ chức dữ liệu trong cơ sở dữu liệu để:  
+**Chuẩn hoá (Normalization)** là quá trình tổ chức dữ liệu trong cơ sở dữ liệu để:  
 * Giảm dư thừa dữ liệu
 * Tránh mâu thuẫn dữ liệu
 * Cải thiện tính toàn vẹn
@@ -34,7 +34,7 @@ Giả sử bạn có bảng `Students`:
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
-### 2. Các mức chuẩn hoá phỏ biến
+### 2. Các mức chuẩn hoá phổ biến
 
 <div style='margin-bottom:16px'></div>
 
@@ -47,7 +47,7 @@ Giả sử bạn có bảng `Students`:
 
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
-### 3. Phi chuẩn hoá là gì? Khi nà dùng?
+### 3. Phi chuẩn hoá là gì? Khi nào dùng?
 **Phi chuẩn hoá (Denormalization)** là cố tình làm ngược lại chuẩn hoá để:  
 * Tăng hiệu năng truy vấn
 * Giảm số lần `JOIN` phức tạp

@@ -116,7 +116,7 @@ Cả biến bảng và bảng tạm đều được tạo trong cơ sở dữ li
 <div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
 ### 4. Ưu và nhược điểm của biến bảng
-Việc lựa chọn sử dụng biến bảng hya bảng tạm phụ thuộc vào nhiều ngữ cảnh cụ thể. Hãy cùng phân tích ưu và nhược điểm của biến bảng để có quyết định sáng xuốt.
+Việc lựa chọn sử dụng biến bảng hay bảng tạm phụ thuộc vào nhiều ngữ cảnh cụ thể. Hãy cùng phân tích ưu và nhược điểm của biến bảng để có quyết định sáng suốt.
 
 **Ưu điểm:**
 * Ít recompilation hơn: việc sử dụng biến bảng trong các Stored Procedure có thể giúp chương trình hoạt động tốt hơn vì SQL Server ít phải biên dịch lại (recompile) hơn so với việc sử dụng bảng tạm.
@@ -135,7 +135,7 @@ Việc lựa chọn sử dụng biến bảng hya bảng tạm phụ thuộc và
 Hãy tưởng tượng chúng ta đang quản lý một cơ sở dữ liệu bán hàng đơn giản. Ban giám đốc yêu cầu một báo cáo nhanh: 
 >**"Tính tổng giá trị đơn hàng cho một khách hàng cụ thể trong một khoảng thời gian, nhưng có áp dụng chính sách khuyến mãi đặc biệt."**
 
-Chính sách khuyến mãi như sau:
+**Chính sách khuyến mãi như sau:**
 * Đối với nhữung đơn hàng trong khoảng thời gian được chọn, nếu tổng giá trị của một sản phẩm vượt quá 50,000,000 VNĐ thì tất cả các dòng hàng của sản phầm đó trong báo cáo sẽ được giảm giá 10%.
 
 **Đây là yêu cầu cần sử dụng biến bảng vì:**

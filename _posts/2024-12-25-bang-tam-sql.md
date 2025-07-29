@@ -52,6 +52,8 @@ SELECT * FROM #TopStudents;
 
 >**Cảnh báo:** Hãy hết sức cẩn trọng khi dùng bảng tạm toàn cục. Vì nó có thể được truy cập từ mọi nơi, nó dễ gây ra xung đột tên và các vấn đề về quản lý phiên. Nó thường chỉ được dùng trong các trường hợp đặc thù.
 
+<div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
+
 ### 2. Khi nào nên dùng?
 **a. Đơn giản hoá các truy vấn phức tạp**   
 Thay vì lồng 3-4 cấp subquery, hãy tách từng bước tính toàn và lưu kết quả vào bảng tạm. Code của bạn sẽ dễ đọc hơn và dễ gỡ lỗi hơn gấp nhiều lần.
@@ -61,6 +63,8 @@ Thay vì lồng 3-4 cấp subquery, hãy tách từng bước tính toàn và l�
 
 **c. Cải thiện hiệu năng**  
 Với các tập dữ liệu lớn, SQL Server có thể tạo ra các thống kê trên bảng tạm. Điều này giúp tối ưu hoá truy vấn, đưa ra kế hoạch thực thi tốt hơn. Hơn nữa, bạn có thể tạo Index trực tiếp trên bảng tạm để tăng tốc các thao tác JOIN hoặc WHERE sau đó.
+
+<div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
 ### 3. Ví dụ
 Hãy tưởng tượng một quy trình nghiệp vụ cuối tháng:
@@ -165,6 +169,8 @@ DROP TABLE #GoldenCustomers;
 
 Trong kịch bản này, các giải pháp thay thế như CTE hay subquery đều thất bại vì chúng chỉ tồn tại trong một câu lệnh duy nhất. Bạn sẽ phải lặp lại logic tính toán phức tạp ở cả 3 bước, gây ra sự trùng lặp code vaf suy giảm hiệu năng nghiêm trọng.
 
+<div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
+
 ### 4. Bảng tạm vs "Họ Hàng": Cuộc so tài tay đôi
 Lựa chọn đúng công cụ cho đúng công việc là chìa khoá của một lập trình viên chuyên nghiệp.
 
@@ -178,6 +184,8 @@ Lựa chọn đúng công cụ cho đúng công việc là chìa khoá của m�
 {: style="width:100%; margin-bottom:16px"}
 
 >**Quy tắc ngón tay cái: Nếu bạn phân vân, hãy dùng bảng tạm (#table). Nó an toàn và có hiệu năng ổn định hơn. Chỉ dùng biến bảng (@table) khi bạn chắc chắn tập dữ liệu cực nhỏ.**
+
+<div style="border: 1px solid #e6e6e6; margin:64px 0"></div>
 
 ### 5. Lời kết
 Bảng tạm không chỉ là một nơi lưu trữ dữ liệu tạm thời. Nó là một công cụ thiết kế mạnh mẽ, một phương pháp để cấu trúc hoá logic, cải thiện hiệu năng và tăng cường khả năng bảo trì cho mã SQL của bạn. Bằng cách làm chủ nó, bạn không chỉ giải quyết được những bào toán phức tạp một cách thanh lịch, mà còn chứng tỏ được tư duy lập trình bài bản và chuyên nghiệp của mình.

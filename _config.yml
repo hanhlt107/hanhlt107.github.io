@@ -20,7 +20,14 @@ author: XìngShì
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me:
+    - Mavel: "mavel"
+    - Game Of Thrones: "game-of-thrones"
+    - Harry Potter: "harry-potter"
+    - The Lord of the Rings: "the-lord-of-the-rings"
+    - The Witcher: "the-witcher"
+    - Avatar: "avatar"
+    - The Matrix: "the-matrix"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"

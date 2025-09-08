@@ -22,12 +22,16 @@ author: XìngShì
 navbar-links:
   About Me:
     - Mavel: "mavel"
+    - DC Universe: "dc-universe"
     - Game Of Thrones: "game-of-thrones"
-    - Harry Potter: "harry-potter"
     - The Lord of the Rings: "the-lord-of-the-rings"
+    - Harry Potter: "harry-potter"
+    - Star wars: "star-wars"
     - The Witcher: "the-witcher"
     - Avatar: "avatar"
     - The Matrix: "the-matrix"
+    - The Maze Runner: "the-maze-runner"
+    - X-Men: "x-men"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"

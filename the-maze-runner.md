@@ -16,7 +16,7 @@ _Tổng cộng 3 phần phim, dựa trên bộ ba tiểu thuyết của James Da
 
 * _**Doanh thu phòng vé:** 💰 348 triệu USD toàn cầu_
 
-![anh](/assets/img/the-maze-runner-1.jpg)
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/64-iSYVmMVY?wmode=opaque&feature=oembed" frameborder="0" allowfullscreen  style='margin-top:8px; margin-bottom:24px'></iframe>
 
 _Thomas (Dylan O'Brien) tỉnh dậy trong một thang máy kim loại, trí nhớ hoàn toàn bị xóa sạch, và bị ném vào “The Glade” – một khu vực khép kín rộng lớn, bao quanh bởi những bức tường mê cung khổng lồ và bí ẩn. Anh không nhớ gì ngoài tên mình. Những "Glader" khác, bao gồm thủ lĩnh Alby, người quản lý Newt (Thomas Brodie-Sangster), và Minho (Ki Hong Lee) – người dẫn đường cho các Runner, đã sống ở đây hàng năm, cố gắng tìm lối thoát._
 
@@ -46,7 +46,7 @@ _**IMDb:** ⭐ 6.2/10_
 
 _**Doanh thu phòng vé:** 💰 288 triệu USD toàn cầu_
 
-![anh](/assets/img/the-maze-runner-3.jpg)
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/4-BTxXm8KSg?feature=oembed" frameborder="0" allowfullscreen  style='margin-top:8px; margin-bottom:24px'></iframe>
 
 _Thomas (Dylan O'Brien) dẫn đầu nhóm Gladers và "The Right Arm" còn lại thực hiện một nhiệm vụ táo bạo và nguy hiểm nhất từ trước đến nay: đột nhập vào “Last City” – thành trì cuối cùng và kiên cố nhất do WCKD kiểm soát, nơi ẩn chứa cả câu trả lời về căn bệnh Flare và huyết thanh chữa trị, cũng như sự hy sinh cuối cùng để giành lấy tự do. Mục tiêu chính của Thomas là giải cứu Minho (Ki Hong Lee), người đã bị WCKD bắt giữ và đang chịu đựng những thử nghiệm tàn bạo._
 

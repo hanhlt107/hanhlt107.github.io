@@ -7,19 +7,31 @@ _Trong một thế giới phức tạp và đầy rẫy định kiến, nơi con
 
 _Từ những ngày đầu tiên, X-Men không chỉ đơn thuần là câu chuyện về người tốt chống lại kẻ xấu. Đây còn là một ẩn dụ sâu sắc về sự khác biệt, về nỗi đau của những kẻ bị xã hội ruồng bỏ vì bản chất của mình, và hành trình không ngừng nghỉ để tìm kiếm bản ngã, vị trí trong thế giới của mỗi dị nhân. Loạt phim đã khai thác các chủ đề về phân biệt chủng tộc, kỳ thị xã hội và đấu tranh cho quyền bình đẳng, khiến nó trở nên vượt thời gian và có sức ảnh hưởng mạnh mẽ đến văn hóa đại chúng._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 1. Dị nhân: Thế hệ đầu tiên – X-Men first class (2011)
+![anh](/assets/img/x-men-1.jpg)
+
 _Phim X-Men: First Class là phần tiền truyện của loạt phim X-Men, được đạo diễn bởi Matthew Vaughn. Mặc dù không phải là phần phim đầu tiên về X-Men được ra mắt, nhưng theo thứ tự xem phim X-Men, X-Men: First Class là tập đầu tiên, đặt nền móng cho câu chuyện phức tạp của các dị nhân._
 
 _Bối cảnh của phim là cuộc khủng hoảng tên lửa Cuba vào năm 1962, một thời điểm căng thẳng trong lịch sử thế giới, càng làm nổi bật sự xuất hiện của các dị nhân. Trong thời điểm này, Charles Xavier/ Giáo sư X (James McAvoy thủ vai) – một dị nhân trẻ tuổi với khả năng ngoại cảm phi thường, và Erik Lehnsherr/Magneto (Michael Fassbender thủ vai) – một dị nhân mạnh mẽ với khả năng điều khiển kim loại, vẫn còn trẻ và đang hợp tác với nhau. Họ cùng nhau khám phá và tìm hiểu về sức mạnh của bản thân khi biến đổi gen, cũng như nguồn gốc của nhóm dị nhân đầu tiên. Họ chiêu mộ và huấn luyện một nhóm dị nhân trẻ, hình thành nên đội X-Men ban đầu, nhưng sự khác biệt về triết lý giữa Charles và Erik đã dần nảy sinh, dẫn đến sự hình thành của hội Brotherhood of Mutants dưới sự lãnh đạo của Erik._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 2. Dị nhân: Ngày cũ của tương lai – X-Men: Days of Future Past (2014)
+![anh](/assets/img/x-men-2.jpg)
+
 _X-Men: Days of Future Past là một phần phim khá phức tạp và đầy tham vọng trong loạt phim X-Men, khi câu chuyện diễn ra đồng thời ở cả hiện tại (năm 2023) và quá khứ (năm 1973). Trong tương lai đen tối, đội X-Men phải đối mặt với sự diệt vong bởi những người máy săn dị nhân Sentinel bất khả chiến bại. Giáo sư X (Patrick Stewart) và Magneto (Ian McKellen) của tương lai, cùng với những dị nhân còn sót lại, quyết định gửi tâm trí của Wolverine (Hugh Jackman) về quá khứ để ngăn chặn một sự kiện quan trọng: vụ ám sát Bolivar Trask (Peter Dinklage) bởi Mystique (Jennifer Lawrence), một hành động đã châm ngòi cho chương trình Sentinel._
 
 _Tại quá khứ năm 1973, Wolverine phải hợp tác với Giáo sư X (James McAvoy) và Magneto (Michael Fassbender) phiên bản trẻ, những người đang mất phương hướng và bị chia rẽ sâu sắc. Anh phải thuyết phục họ gạt bỏ mọi bất đồng để cùng nhau ngăn chặn Mystique, từ đó thay đổi dòng thời gian và cứu lấy tương lai của nhân loại và dị nhân. Phim không chỉ có sự tham gia của dàn diễn viên nổi tiếng từ cả hai thế hệ X-Men, như Hugh Jackman, James McAvoy, Peter Dinklage, Jennifer Lawrence, Halle Berry, Nicholas Hoult, Anna Paquin, mà còn là sự kết hợp tài tình của các nhân vật từ các tập phim X-Men trước đó, tạo nên một bản giao hưởng điện ảnh hoành tráng._
 
 _Với câu chuyện hấp dẫn, phức tạp nhưng được kể một cách mạch lạc, diễn xuất ấn tượng của toàn bộ dàn diễn viên (đặc biệt là Fassbender và McAvoy), và hiệu ứng hình ảnh xuất sắc, X-Men: Days of Future Past đã được giới phê bình đánh giá rất cao và được xem là một trong những phần hay nhất, nếu không muốn nói là hay nhất, trong loạt phim X-Men, cả về mặt nghệ thuật lẫn thương mại._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 3. Người Sói – X-Men Origins: Wolverine (2009)
+![anh](/assets/img/x-men-3.jpg)
+
 _X-Men Origins: Wolverine là một bộ phim giới thiệu sâu sắc về nguồn gốc và quá khứ đầy biến động của nhân vật Wolverine (Người Sói), do Hugh Jackman thủ vai, một trong những dị nhân biểu tượng nhất của vũ trụ X-Men. Phim tập trung vào cuộc đời bất tử của Wolverine, từ tuổi thơ đau khổ, qua nhiều thế kỷ chiến tranh, khi anh còn là thành viên của Biệt đội X do Đại tá William Stryker thành lập. Đồng thời, phim còn khám phá cuộc gặp gỡ định mệnh với Đại tá William Stryker, sự xuất hiện của chương trình Weapon X tàn nhẫn đã ban cho anh bộ xương Adamantium bất hoại, cũng như mối quan hệ phức tạp và đầy hận thù của Wolverine với các dị nhân khác, đặc biệt là với người anh cùng cha khác mẹ, Victor Creed/Sabretooth (Liev Schreiber)._
 
 _Câu chuyện bắt đầu từ năm 1845 ở Canada, với cậu bé James Howlett. Trong một biến cố đau lòng, James chứng kiến cha mình bị giết bởi Thomas Logan, người làm vườn. Trong cảnh hỗn loạn, sức mạnh đặc biệt của James được kích hoạt khi móng vuốt xương trồi ra từ bàn tay cậu bé, giết chết Logan. Trước khi qua đời, Logan tiết lộ rằng ông ta là cha ruột của James, tạo nên một cú sốc lớn cho cậu bé._
@@ -28,7 +40,11 @@ _Sau sự kiện đau lòng đó, James dẫn theo Victor Creed, đứa con bị
 
 _Tuy nhiên, cuộc sống của Logan bị đảo lộn khi Victor tìm đến và giết hại Kayla, khiến Logan đau khổ và khao khát trả thù. Để trả thù cho tình yêu của mình, Logan đồng ý tham gia vào cuộc thí nghiệm kinh hoàng của Stryker: chương trình Weapon X, trong đó anh được tiêm Adamantium – một kim loại bất hoại – vào toàn bộ xương cốt để trở thành vũ khí hoàn hảo. Nhưng sau khi nhận ra mục đích thật sự tàn độc của Stryker – đó là tạo ra những dị nhân siêu vũ khí và tiêu diệt tất cả dị nhân khác, Logan quyết định chống lại và giải cứu các dị nhân khác đang bị giam cầm, bao gồm cả một nhóm dị nhân trẻ._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 4. Dị nhân 7: Khải huyền – X-Men: Apocalypse (2016)
+![anh](/assets/img/x-men-4.jpg)
+
 _Vào những năm 1980, En Sabah Nur, hay còn được gọi là Apocalypse (Oscar Isaac), là một nhân vật dị nhân cổ đại và đầy quyền lực, được cho là dị nhân đầu tiên. Hắn có khả năng chuyển đổi ý thức sang cơ thể khác, hấp thụ năng lực của họ và trở nên bất tử. Apocalypse đã đày đọa nhân loại trong hàng ngàn năm để phục vụ nhu cầu sống của bản thân, tự xưng là một vị thần. Sau đó, Apocalypse bị phản bội bởi những người từng tôn sùng hắn và bị chôn sống cùng với những thuộc hạ dưới kim tự tháp vào năm 3600 trước Công nguyên._
 
 _Tỉnh dậy vào năm 1983, Apocalypse cho rằng xã hội loài người đã trở nên yếu đuối và lạc lối khi không có sự thống trị của hắn. Apocalypse quyết định tạo nên một đội quân cho riêng mình bằng cách tập hợp các dị nhân hùng mạnh nhất – những "Tứ Kỵ Sĩ" của riêng hắn, bao gồm Storm, Psylocke, Angel và một Magneto (Michael Fassbender) đang sống ẩn dật, đau khổ vì mất mát gia đình. Hắn có ý định tẩy rửa thế giới và xây dựng lại một trật tự mới do dị nhân cai trị._
@@ -37,38 +53,62 @@ _Charles Xavier/ Giáo sư X (James McAvoy) là mục tiêu tiếp theo hắn nh
 
 _Để ngăn chặn việc này và cứu Giáo sư X cùng toàn bộ thế giới khỏi sự hủy diệt, nhóm dị nhân trẻ tuổi và chưa có nhiều kinh nghiệm buộc phải tham gia vào trận chiến. Trong đó, Jean Grey (Sophie Turner) được xem là con át chủ bài, có thể giúp lật ngược tình thế nhờ sức mạnh Phoenix Force tiềm ẩn bên trong cô, một sức mạnh mà ngay cả bản thân cô cũng chưa nhận ra._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 5. X-Men: Phượng hoàng bóng tối – X-Men: Dark Phoenix (2019)
+![anh](/assets/img/x-men-5.jpg)
+
 _X-Men: Dark Phoenix là một trong những phần phim đầy kịch tính và căng thẳng trong loạt phim X-Men, đồng thời là bộ phim cuối cùng của series X-Men dưới sự sản xuất của 20th Century Fox trước khi sáp nhập vào Disney. Lấy mốc thời gian sau sự kiện X-Men: Apocalypse vào năm 1992, lúc này dị nhân đang dần được công nhận trên toàn thế giới và đội X-Men được xem là những anh hùng._
 
 _Trong một nhiệm vụ đặc biệt giải cứu các phi hành gia gặp nạn ngoài vũ trụ, nhóm X-Men đã tiếp xúc với một thực thể vũ trụ bí ẩn và quyền năng có tên là Phoenix Force. Thực thể này đã lựa chọn Jean Grey (Sophie Turner) làm vật chủ cho mình, truyền cho cô một sức mạnh khổng lồ đến mức không thể kiểm soát. Với sức mạnh mới này, Jean dần mất kiểm soát cảm xúc và năng lực, trở nên nguy hiểm cho cả bạn bè và kẻ thù. Cô bắt đầu hành trình đi tìm lại gia đình cũng như cách kiểm soát sức mạnh hủy diệt của mình, nhưng mỗi lần sử dụng năng lực lại đẩy cô sâu hơn vào bóng tối. Nhóm X-Men, do Giáo sư X (James McAvoy), Beast (Nicholas Hoult), Mystique (Jennifer Lawrence) và Cyclops (Tye Sheridan) lãnh đạo, một lần nữa phải đứng trước lựa chọn cứu giúp Jean – người mà họ coi là gia đình – hay ngăn chặn sự nguy hiểm tiềm tàng đến từ thực thể Phoenix đang chiếm hữu cô, đe dọa sự tồn vong của toàn bộ Trái Đất._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 6. Dị nhân 1 – X-Men (2000)
+![anh](/assets/img/x-men-6.jpg)
+\
 _Trong thế giới điện ảnh, X-Men là bộ phim ra đời đầu tiên của loạt phim X-Men, được công chiếu vào năm 2000 và đạo diễn bởi Bryan Singer. Đây là bộ phim thứ sáu theo thứ tự thời gian trong cốt truyện được công chiếu tại các rạp (nếu xét theo dòng thời gian nội tại của phim). Bộ phim này không chỉ tạo tiền đề cho vũ trụ X-Men mà còn giới thiệu các nhân vật chủ chốt như **Professor Charles Xavier**, **Magneto**, **Wolverine**, và **Rogue**, cùng với hội Brotherhood of Mutants._
 
 _Phim miêu tả một thế giới mà một lượng nhỏ dân số là dị nhân/ người đột biến. Họ sở hữu các siêu năng lực đặc biệt do đột biến gen X, nhưng lại phải đối mặt với sự sợ hãi và căm ghét từ con người bình thường, những người xem các dị nhân là quái dị và nguy hiểm. Dẫu vậy, Charles Xavier/ Giáo sư X (Patrick Stewart), một dị nhân ngoại cảm mạnh mẽ, vẫn lãnh đạo các X-Men – một nhóm dị nhân anh hùng được thành lập để bảo vệ cả dị nhân và con người – chiến đấu để bảo vệ thế giới luôn ruồng bỏ họ. Trong quá trình này, các X-Men phải đối mặt với Magneto (Ian McKellen), một dị nhân có khả năng điều khiển kim loại, người cho rằng con người và dị nhân không nên cùng tồn tại và tin rằng dị nhân nên thống trị để đảm bảo sự sống còn của loài mình._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 7. Dị nhân 2: Liên minh dị nhân – X2: X-Men United (2003)
+![anh](/assets/img/x-men-7.jpg)
+
 _X2: X-Men United, do Bryan Singer tiếp tục đạo diễn, là một bộ phim được đánh giá cao và thường được coi là một trong những phần hay nhất của loạt phim X-Men. Câu chuyện bắt đầu với một cuộc tấn công táo bạo vào Nhà Trắng của một dị nhân không rõ danh tính, gây ra sự hoảng loạn và kích động tâm lý chống dị nhân trên toàn cầu. Một cuộc chiến mới lại bắt đầu với những dị nhân, cả tốt lẫn xấu, khi một nhân vật quan trọng bị ám sát trong khi tham dự một cuộc họp tại Nhà Trắng. Lúc này Magneto (Ian McKellen), đang bị các X-Men giam giữ trong một nhà tù đặc biệt, cũng đã trốn thoát nhờ sự giúp đỡ bí mật._
 
 _Để lật mặt kẻ đứng phía sau cuộc tấn công và ngăn chặn một cuộc chiến tranh tổng lực giữa người và dị nhân, nhóm dị nhân phải hợp sức để chống lại nhà khoa học điên rồ William Stryker (Brian Cox), một kẻ thù cũ của Wolverine và cũng là người đã tạo ra chương trình Weapon X. Stryker đang âm mưu sử dụng sức mạnh ngoại cảm của Giáo sư X để tiêu diệt tất cả dị nhân trên thế giới. Nhằm ngăn cản ý đồ độc ác của William, Giáo sư X (Patrick Stewart) buộc phải hợp tác với Magneto (Ian McKellen), kẻ thù không đội trời chung của mình, trước tình hình ngày một căng thẳng. Sự hợp tác miễn cưỡng này là một trong những điểm nhấn của bộ phim._
 
 _Đồng hành trong nhiệm vụ lần này còn có người sói Logan (Hugh Jackman), lúc này đang truy tìm lại quá khứ bí ẩn của mình và những ký ức bị xóa bỏ. William Stryker lại là người nắm giữ chìa khóa về quá khứ của anh và mối liên hệ với chương trình Weapon X, khiến cuộc đối đầu giữa họ trở nên cá nhân hơn bao giờ hết. Bộ phim đào sâu vào các chủ đề về sự chấp nhận, phân biệt đối xử và ý nghĩa của gia đình, củng cố vị thế của X-Men như một trong những thương hiệu siêu anh hùng có chiều sâu._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 8. Dị nhân 3: Phán quyết cuối cùng – X-Men: The last stand (2006)
+![anh](/assets/img/x-men-8.jpg)
+
 _Bộ phim khép lại bộ ba phim X-Men gốc, do Brett Ratner đạo diễn, và là một cuộc chiến đầy bi kịch giữa các dị nhân và những người muốn “chữa trị” đột biến gen. Một công ty dược phẩm tuyên bố phát hiện ra một loại thuốc có thể “chữa trị” đột biến gen của dị nhân, biến họ trở lại thành con người bình thường. Phát hiện này gây ra một làn sóng tranh cãi dữ dội trong cộng đồng dị nhân và toàn thế giới._
 
 _Một phe, do Magneto (Ian McKellen) lãnh đạo, muốn tiếp tục sử dụng sức mạnh đặc biệt của họ và từ chối “chữa trị”, xem đó là một sự diệt chủng đối với bản chất dị nhân. Phe còn lại, do Giáo sư X (Patrick Stewart) chỉ huy, muốn chấp nhận “chữa trị” và tin rằng đó là con đường dẫn đến hòa bình giữa người và dị nhân, hoặc ít nhất là một lựa chọn cho những ai muốn sống một cuộc đời bình thường. Tuy nhiên, sự trở lại của Jean Grey (Famke Janssen) dưới hình dạng Dark Phoenix, với sức mạnh hủy diệt không thể kiểm soát, đã làm phức tạp thêm tình hình, đẩy cả hai phe vào một cuộc chiến sinh tử._
 
 _Cuộc chiến giữa hai phe này là để quyết định tương lai của cộng đồng dị nhân và xã hội. Đây là cuộc chiến cuối cùng, nơi mọi quyết định sẽ được đưa ra và mọi thứ sẽ kết thúc với những mất mát to lớn và những hy sinh không thể bù đắp, thay đổi vĩnh viễn số phận của các dị nhân và những người thân yêu của họ._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 9. Người sói Wolverine – The Wolverine (2013)
+![anh](/assets/img/x-men-9.jpeg)
+
 _Trong phim The Wolverine, bối cảnh tiếp tục sau các sự kiện đau lòng trong phần phim X-Men: The Last Stand, nơi Logan (Hugh Jackman thủ vai) phải chịu đựng cái chết của Jean Grey và sự tan rã của X-Men. Logan đang sống ẩn dật ở Canada, bị dày vò bởi những ký ức và nỗi đau về quá khứ bất tử của mình. Anh bất ngờ bị Yukio (Rila Fukushima thủ vai), một cô gái dị nhân người Nhật Bản có khả năng nhìn thấy cái chết của người khác, tìm đến._
 
 _Logan ấn tượng bởi khả năng kiếm pháp điêu luyện và sự kiên trì của Yukio. Anh đồng ý đi theo cô, mặc dù không quá quan tâm đến lời mời ban đầu. Tới Nhật Bản, Logan phát hiện ra rằng người mà Yukio tìm đến chính là Yashida (Hiroyuki Sanada), một ông trùm công nghiệp quyền lực và cũng là người lính anh từng cứu mạng trong trại tập trung Nagasaki trong Thế chiến thứ hai. Yashida, giờ đã già yếu và đang hấp hối, muốn trả ơn Logan bằng cách đưa cho anh khả năng từ bỏ sự bất tử, điều mà Logan luôn khao khát để thoát khỏi gánh nặng của cuộc đời. Tuy nhiên, Logan sớm bị cuốn vào một âm mưu phức tạp và nguy hiểm liên quan đến gia đình Yashida, Yakuzas, và những kẻ thù khác muốn chiếm đoạt khả năng tự chữa lành của anh._
 
 _Trong thời gian lưu trú ở Nhật Bản, Logan quen biết với Mariko (Tao Okamoto thủ vai), cháu gái xinh đẹp và mạnh mẽ của Yashida, người đang bị đe dọa bởi những âm mưu gia tộc. Dù ban đầu họ không hợp nhau và có nhiều hiểu lầm, nhưng họ buộc phải đồng lòng trong cuộc chiến bảo vệ sự sống của Logan khỏi những kẻ muốn lợi dụng anh, và ngăn chặn kế hoạch độc ác của Yashida – kẻ thực sự muốn chuyển giao khả năng hồi phục của Wolverine cho chính mình. Bộ phim khám phá sâu sắc nội tâm của Logan, đấu tranh giữa sự bất tử và khát khao được chết như một con người bình thường, đồng thời thể hiện kỹ năng chiến đấu đỉnh cao của anh trong môi trường samurai và ninja._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 10. Deadpool (2016)
+![anh](/assets/img/x-men-10.jpg)
+
 _Deadpool là phần phim phụ trong danh sách các tập phim X-Men, nổi bật với phong cách hài hước đen tối, bạo lực và phá vỡ bức tường thứ tư. Đây là phần thứ 8 do Tim Miller đạo diễn từ kịch bản của Rhett Reese và Paul Wernick. Deadpool là một trong những bộ phim về dị nhân thành công nhất của X-Men, không chỉ về mặt thương mại mà còn được giới phê bình đánh giá cao vì sự đột phá của nó_
 
 _Wade Wilson (Ryan Reynolds), một cựu lính đặc nhiệm với quá khứ đen tối nhưng có trái tim ấm áp, vừa cầu hôn thành công bạn gái Vanessa (Morena Baccarin), người anh yêu sâu sắc. Cuộc sống của họ tưởng chừng viên mãn thì Wade nhận tin chẩn đoán mắc bệnh ung thư thời kỳ cuối, khiến anh đau khổ và quyết định nói lời chia tay Vanessa để cô không phải chứng kiến anh chết dần._
@@ -77,7 +117,11 @@ _Trong lúc tuyệt vọng, một nhà tuyển dụng bí ẩn tiếp cận Wade
 
 _Chữa khỏi bệnh ung thư nhưng Wade lại có một thân thể biến dạng kinh dị, khiến anh phải mang mặt nạ và đang làm lính đánh thuê với nickname Deadpool. Không dám đi tìm Vanessa vì ngoại hình đáng sợ của mình, anh mà chỉ còn cách tìm Ajax để ép hắn đưa thuốc giải. Nhưng Ajax đã nhanh tay hơn một bước và bắt Vanessa làm con tin, buộc Wade phải đối mặt với kẻ thù của mình. Nhằm bảo vệ bạn gái, Wade không còn cách nào khác ngoài việc phải lộ mặt và chiến đấu, sử dụng sự hài hước độc đáo và kỹ năng chiến đấu tàn bạo của mình để cứu người yêu và trả thù kẻ đã hủy hoại cuộc đời anh._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 11. Các tập phim X-Men: Deadpool 2 (2018)
+![anh](/assets/img/x-men-11.jpg)
+
 _Deadpool (Ryan Reynolds) chung sống hạnh phúc với bạn gái Vanessa sau khi hai người gặp lại nhau ở phần trước. Cuộc sống của họ tràn ngập niềm vui và sự hài hước đặc trưng của Deadpool. Một ngày định mệnh, kẻ thù cũ của Wade Wilson (người đã bị anh giết trong phần trước) tìm đến và xả súng vào căn hộ của Wade, khiến Vanessa (Morena Baccarin) không may trúng đạn và qua đời ngay trước mắt anh. Sự kiện này đẩy Wade vào một cơn khủng hoảng trầm trọng, làm mất đi ý nghĩa cuộc sống của anh._
 
 _Wade luôn tự trách vì đã gián tiếp gây ra cái chết của Vanessa. Anh chìm sâu vào tuyệt vọng và tìm đến cái chết bằng cách nằm trên thùng xăng và phóng hỏa. Tuy nhiên, Wade được Colossus cứu và mang về trường X-Men, nơi anh được an ủi và cố gắng thuyết phục anh tham gia vào đội X-Men như một cách để tìm lại mục đích sống._
@@ -86,21 +130,33 @@ _Sau nhiều lần được thuyết phục, Deadpool đồng ý tham gia vào X
 
 _Deadpool và Russell bị đưa đến ngục Icebox, một nhà tù đặc biệt dành cho dị nhân, và đeo vòng khử siêu năng lực. Tại đây, họ gặp Cable (Josh Brolin), một người lính đến từ tương lai với cánh tay kim loại, người đang săn lùng Russell để ngăn cậu bé trở thành một kẻ giết người hàng loạt trong tương lai. Từ hai người xa lạ, chàng dị nhân bỗng đối mặt với nhiệm vụ không mong muốn: bảo vệ Russell và khuyên răn cậu bé nhẹ nhàng nhất có thể trước khi Russell hủy diệt thế giới trong tương lai, đồng thời thành lập một biệt đội riêng mang tên X-Force để đối đầu với Cable._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 12. Dị nhân thế hệ mới – The new mutants (2020)
+![anh](/assets/img/x-men-12.jpeg)
+
 _Dị nhân thế hệ mới (The New Mutants) là một bộ phim kinh dị siêu anh hùng, một nhánh khác của vũ trụ X-Men, tập trung vào một nhóm dị nhân trẻ tuổi bị giam giữ trong một cơ sở bí ẩn. Danielle Moonstar (Blu Hunt), còn gọi là Mirage, là người sống sót duy nhất trong cơn lốc xoáy kỳ lạ khiến toàn bộ khu bảo tồn của cô bị tàn phá. Từ đó, Danielle phát hiện ra mình sở hữu năng lực kỳ lạ, có khả năng tạo ảo giác đáng sợ từ nỗi sợ hãi và ký ức của người khác. Cô được chuyển đến trường học đặc biệt do tiến sĩ Cecilia Reyes (Alice Braga) điều hành, một cơ sở được quảng cáo là bệnh viện dành cho các dị nhân trẻ học cách điều khiển sức mạnh của mình._
 
 _Ở đây, Danielle gặp 4 dị nhân đồng trang lứa khác: Rahne Sinclair (Maisie Williams), dị nhân gốc Scotland, có khả năng biến thành sói mạnh mẽ; Illyana Rasputin (Anya Taylor-Joy), còn gọi là Magik, dị nhân người Nga với khả năng ma thuật, dịch chuyển tức thì và triệu hồi thanh kiếm Soulsword; Sam Guthrie (Charlie Heaton), còn gọi là Cannonball, dị nhân người Mỹ, có thể hóa thành không khí và phóng đi với tốc độ siêu thanh, đồng thời miễn nhiễm với các tác động vật lý; và Roberto da Costa (Henry Zaga), còn gọi là Sunspot, dị nhân người Brazil, có khả năng hấp thụ và điều khiển năng lượng mặt trời. Mỗi người đều mang trong mình những tổn thương tâm lý và nỗi sợ hãi riêng, liên quan đến nguồn gốc sức mạnh của họ._
 
 _Năm dị nhân thanh thiếu niên tin rằng họ đang được đào tạo để gia nhập X-Men, nhưng cả nhóm sớm nhận ra mình đang trở thành vật thí nghiệm để thu thập ADN và biến họ thành vũ khí. Khi những ảo ảnh kinh hoàng từ quá khứ và nỗi sợ hãi của họ bắt đầu hiện hữu trong cơ sở, các dị nhân buộc phải hợp lực để sinh tồn, đối mặt với cả kẻ thù bên trong và bên ngoài, khám phá sự thật đen tối về nơi họ đang bị giam giữ và đấu tranh để giành lấy tự do._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 13. Các tập phim X-Men: Logan: Người Sói – Logan (2017)
+![anh](/assets/img/x-men-13.jpeg)
+
 _Logan là phần 3 cũng là phần cuối cùng nói về Người Sói, và là một bộ phim bi tráng, đầy cảm xúc, khép lại hành trình gần hai thập kỷ của Hugh Jackman với vai Wolverine. Lấy bối cảnh năm 2029, một tương lai đen tối nơi hầu hết các dị nhân đã tuyệt chủng, Logan (Hugh Jackman thủ vai) đã ở tuổi trung niên, khả năng tự chữa lành của anh cũng chậm hơn khi trước, khiến anh phải chịu đựng những cơn đau thể xác và tinh thần. Để kiếm kế sinh nhai và đủ tiền chăm sóc người sáng lập X-Men, Giáo sư X (Patrick Stewart), nay đã già yếu và mắc chứng mất trí nhớ, Logan đi lái xe thuê ở El Paso, Texas._
 
 _Một ngày, Logan nhận cuộc gọi từ khách hàng lạ và hứa chở họ đến biên giới Mỹ-Canada. Liền sau đó, Logan biết được rằng, cô bé Laura (Dafne Keen), đi cùng người phụ nữ, là một dị nhân trẻ tuổi có khả năng tương tự mình – một biến thể nữ của Wolverine, được biết đến là X-23. Laura đang bị tổ chức Transigen, đứng đầu là tiến sĩ Zander Rice, truy lùng gắt gao vì cô là một phần của dự án Weapon X thế hệ mới. Cuộc gặp gỡ này cũng là hành trình Logan gắn liền với cô bé dị nhân Laura/ X-23 cho đến cuối đời, khi anh miễn cưỡng trở thành người bảo vệ và là hình mẫu cha của cô bé, dẫn đến một cuộc rượt đuổi tàn khốc qua miền Tây Nam nước Mỹ._
 
 _Bộ phim được giới phê bình đánh giá rất cao về kịch bản, diễn xuất của Hugh Jackman, Patrick Stewart và Dafne Keen, cũng như phong cách tăm tối và cảm xúc mạnh mẽ. Logan không chỉ là một bộ phim siêu anh hùng, mà còn là một bộ phim tâm lý sâu sắc về tình phụ tử, sự tha thứ và cái chết, mang đến một lời chia tay đầy ý nghĩa và cảm động cho một trong những nhân vật được yêu thích nhất của Marvel._
 
+<div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
+
 ### 14. Deadpool & Wolverine (2024)
+![anh](/assets/img/x-men-14.webp)
+
 _Deadpool & Wolverine là một bộ phim siêu anh hùng hài hước sắp ra mắt vào tháng 7 năm 2024, do đạo diễn Shawn Levy chỉ đạo. Đây được xem là bộ phim thứ 34 trong Vũ trụ Điện ảnh Marvel (MCU) và là phần tiếp theo của 2 tập phim Deadpool (2016) và Deadpool 2 (2018), đánh dấu sự kiện các dị nhân từ Fox X-Men Universe chính thức gia nhập MCU. Phim có sự tham gia của Ryan Reynolds trong vai Wade Wilson/Deadpool, Hugh Jackman trong vai Logan/Wolverine, cùng Morena Baccarin (Vanessa) và Brianna Hildebrand (Negasonic Teenage Warhead) trở lại với vai trò của họ._
 
 _Deadpool & Wolverine lấy bối cảnh sau các sự việc trong Deadpool 2, chàng lính đánh thuê Wade Wilson/ Deadpool (Ryan Reynolds) chọn sống cuộc đời bình thường, an phận bên gia đình và bạn bè. Thế nhưng, cuộc sống yên bình của anh bị phá vỡ khi đội đặc vụ thuộc Cơ quan Phương sai Thời gian (TVA), một tổ chức bảo vệ dòng thời gian thiêng liêng, xuất hiện, bắt cóc Deadpool và đưa anh vào MCU. TVA cần sự giúp đỡ của Deadpool để đối phó với một mối đe dọa đa vũ trụ nghiêm trọng._

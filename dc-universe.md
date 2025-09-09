@@ -23,7 +23,7 @@ _⭐ IMDb: **7.4/10**_
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
 ### 2. Nữ thần chiến binh 1984 – Wonder Woman 1984 (2020)
-![anh](/assets/img/dc-2.jpg)
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Vk-gqL3c5qU?autoplay=1&feature=oembed" frameborder="0" allowfullscreen  style='margin-top:8px; margin-bottom:24px'></iframe>
 
 _Năm 1984, Diana Prince làm việc tại Viện Smithsonian ở Washington, DC, một cuộc sống ẩn mình với thân phận là một nhà khảo cổ học. Song song đó, cô vẫn giải cứu thế giới trong vai trò Wonder Woman, chiến đấu với tội phạm một cách thầm lặng, không để lộ danh tính thực sự._
 
@@ -36,7 +36,7 @@ _⭐ IMDb: **5.4/10**_
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
 ### 3. Người đàn ông thép – Man of steel (2013)
-![anh](/assets/img/dc-3.jpg)
+<iframe width="100%" height="315" src="//www.youtube.com/embed/OAVuKPFKrNo" frameborder="0" allowfullscreen  style='margin-top:8px; margin-bottom:24px'></iframe>
 
 _Hành tinh Krypton sắp bị hủy diệt do việc khai thác tài nguyên quá mức. Jor-El (Russell Crowe), một nhà khoa học lỗi lạc, cùng vợ Lara Lor-Van, tìm cách duy trì nòi giống bằng cách gửi con trai sơ sinh của họ, Kal-El, đến Trái đất. Kal-El mang theo mã di truyền của toàn bộ chủng tộc Krypton, một hy vọng cuối cùng cho sự sống của họ._
 
@@ -62,7 +62,7 @@ _⭐ IMDb: **6.4/10**_
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
 ### 5. Biệt đội cảm tử – Suicide Squad (2016)
-![anh](/assets/img/dc-5.jpeg)
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/CmRih_VtVAs" frameborder="0" allowfullscreen  style='margin-top:8px; margin-bottom:24px'></iframe>
 
 _Một sĩ quan tình báo Hoa Kỳ đầy quyền lực, Amanda Waller, quyết định thành lập một đội gồm những siêu tội phạm nguy hiểm nhất, bị giam giữ tại nhà tù Belle Reve, cho một nhiệm vụ tối mật mà không ai khác dám thực hiện. Các thành viên bao gồm Deadshot (Will Smith), một tay thiện xạ không trượt phát nào; Harley Quinn (Margot Robbie), nữ hoàng tội phạm điên loạn; Captain Boomerang (Jai Courtney), tên cướp ngân hàng xảo quyệt; Killer Croc (Adewale Akinnuoye-Agbaje), một quái vật với sức mạnh siêu phàm; và những tên tù khác. Họ bị ép buộc phải học cách làm việc cùng nhau, dưới sự kiểm soát chặt chẽ bằng những quả bom được cấy vào cổ, đảm bảo sự tuân thủ._
 
@@ -150,7 +150,7 @@ _⭐ IMDb: **7.2/10**_
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
 ### 12. Sứ giả hòa bình – Peacemaker (2022)
-![anh](/assets/img/dc-12.jpg)
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/O9DAiLI7Cn8?feature=oembed" frameborder="0" allowfullscreen  style='margin-top:8px; margin-bottom:24px'></iframe>
 
 _Peacemaker là phần ngoại truyện của bộ phim điện ảnh The Suicide Squad: Điệp vụ cảm tử (2021). Nội dung phim lấy bối cảnh sau sự kiện của The Suicide Squad: Điệp vụ cảm tử, giúp người xem khám phá nguồn gốc của nhân vật Peacemaker (John Cena), một kẻ ám ảnh với việc đạt được hòa bình bằng mọi giá, kể cả giết người vô tội. Anh được phục hồi từ vết thương và được giao một nhiệm vụ mới: ngăn chặn "Project Butterfly", một mối đe dọa ngoài hành tinh đang xâm chiếm Trái đất._
 

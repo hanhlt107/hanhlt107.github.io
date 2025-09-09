@@ -33,6 +33,10 @@ navbar-links:
     - The Maze Runner: "the-maze-runner"
     - X-Men: "x-men"
     - Resident Evil: "resident-evil"
+    - Twilight Saga: "twilight-saga"
+    - Pirates of the Caribbean: "pirates-of-the-caribbean"
+    - Dune: "dune"
+    - Fast & Furious: "fast-and-furious"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"

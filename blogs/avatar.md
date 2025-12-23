@@ -36,14 +36,14 @@ _Để ngăn RDA khai thác Pandora một lần nữa, Jake đã lãnh đạo ng
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
-### 🔥 3. Avatar: Fire and Ash – Dự kiến phát hành 12/2025
+### 🔥 3. Avatar: Fire and Ash
 ![anh](/assets/img/avatar-3.jpg)
 
-_Giới thiệu tộc Na’vi mới: Ash People, bộ tộc lửa mạnh mẽ, mang màu sắc đối nghịch, lãnh đạo bởi Varang (Oona Chaplin) – tạo chiều sâu mới cho thế giới Na’vi. Không giống như các bộ tộc Na'vi sống hòa hợp với thiên nhiên, Ash People được cho là có mối liên hệ với yếu tố lửa và núi lửa, mang đến một góc nhìn mới về sự đa dạng của Pandora và các bộ tộc của nó._
+_**Avatar: Fire and Ash** sẽ đưa khán giả tiến sâu hơn vào sự đa dạng của Pandora với sự xuất hiện đầy kịch tính của tộc Na’vi mới: Ash People. Đây là bộ tộc lửa mạnh mẽ, mang màu sắc đối nghịch với các bộ tộc Na'vi truyền thống vốn gắn liền với nước và rừng. Dưới sự lãnh đạo bí ẩn của Varang (do Oona Chaplin thủ vai), Ash People hứa hẹn sẽ tạo thêm chiều sâu mới cho thế giới Na’vi, thách thức những định nghĩa về sự hòa hợp với thiên nhiên mà chúng ta từng biết._
 
-_Kịch bản sẽ mở thêm các vùng Pandora chưa từng thấy, như “tên lửa bay” và sinh vật trên không, hứa hẹn những cảnh quan ngoạn mục và những khám phá mới về hệ sinh thái phong phú của hành tinh. Điều này sẽ mở rộng đáng kể thế giới Pandora mà khán giả đã biết, giới thiệu các loài sinh vật và môi trường sống độc đáo._
+_Kịch bản sẽ mở rộng bản đồ Pandora với những vùng đất chưa từng thấy, như các "tên lửa bay" và những sinh vật trên không kỳ vĩ, hứa hẹn những cảnh quan ngoạn mục và những khám phá độc đáo về hệ sinh thái phong phú của hành tinh. Điều này sẽ không chỉ mở rộng đáng kể vũ trụ Avatar mà còn giới thiệu các loài sinh vật và môi trường sống mới, làm giàu thêm trải nghiệm điện ảnh._
 
-_Khám phá sâu hơn câu chuyện của Kiri – kết nối linh thiêng với Eywa, và sự giằng xé của Spider khi bố hắn, Colonel Quaritch, quay trở lại (Stephen Lang) dưới thân xác Na’vi. Kiri, với mối liên hệ đặc biệt với Eywa, sẽ đóng vai trò quan trọng trong việc tiết lộ những bí ẩn của Pandora. Trong khi đó, mối quan hệ phức tạp giữa Spider và cha mình, Quaritch, sẽ tiếp tục là một điểm nhấn về mặt cảm xúc, khi Spider phải đối mặt với lòng trung thành và nguồn gốc của mình._
+_Bộ phim cũng sẽ khám phá sâu hơn câu chuyện của Kiri – con gái nuôi của Jake và Neytiri, với mối kết nối linh thiêng và bí ẩn với Eywa. Sự giằng xé nội tâm của Spider khi phải đối mặt với người cha ruột, Đại tá Quaritch (Stephen Lang), kẻ đã được tái sinh trong thân xác Na’vi, sẽ tiếp tục là một điểm nhấn về mặt cảm xúc. Liệu tình cảm gia đình có thể chiến thắng lòng thù hận và mục đích hủy diệt? "Avatar: Fire and Ash" được kỳ vọng sẽ là một tác phẩm hoành tráng, đầy kịch tính và cảm xúc, tiếp tục khẳng định vị thế của James Cameron là bậc thầy kể chuyện và tạo ra những thế giới điện ảnh mang tính biểu tượng._
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 

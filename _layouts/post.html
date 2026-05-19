@@ -19,6 +19,10 @@ layout: base
 
 <link rel="stylesheet" href="{{ '/assets/css/reading-progress.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/comments-section.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/toc.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/related-posts.css' | relative_url }}">
+
+{% include toc.html %}
 
 {% include header.html type="post" %}
 
@@ -117,6 +121,8 @@ layout: base
         </li>
         {% endif %}
       </ul>
+      {% include related-posts.html %}
+
       {% include comments.html %}
 
       <!-- Comments section -->
@@ -193,6 +199,7 @@ layout: base
   </div>
 </div>
 <script src="{{ '/assets/js/reading-progress.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
 <script>
   // Ẩn loading dots khi giscus iframe xuất hiện
   (function () {

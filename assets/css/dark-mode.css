@@ -1,0 +1,119 @@
+/* ── Dark mode toggle button ───────────────────────────────────────────── */
+.dark-mode-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 4px 6px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+}
+.dark-mode-btn:hover { transform: rotate(20deg) scale(1.15); }
+.dark-mode-btn:focus { outline: none; }
+
+/* Mặc định: ẩn moon (chưa dark), hiện sun */
+.dm-moon { display: none; }
+.dm-sun  { display: inline; }
+
+body.dark-mode .dm-moon { display: inline; }
+body.dark-mode .dm-sun  { display: none; }
+
+/* ── Dark mode variables ───────────────────────────────────────────────── */
+body.dark-mode {
+  background-color: #0f1117 !important;
+  color: #e6edf3 !important;
+}
+
+/* Navbar */
+body.dark-mode .navbar {
+  background-color: #161b22 !important;
+  border-bottom: 1px solid #30363d;
+}
+body.dark-mode .navbar-custom .nav-link,
+body.dark-mode .navbar-brand {
+  color: #e6edf3 !important;
+}
+body.dark-mode .navbar-custom .nav-link:hover { color: #58a6ff !important; }
+
+/* Headings & text */
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3,
+body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+  color: #e6edf3 !important;
+}
+body.dark-mode p, body.dark-mode li, body.dark-mode td, body.dark-mode th {
+  color: #cdd9e5 !important;
+}
+body.dark-mode a { color: #58a6ff !important; }
+body.dark-mode a:hover { color: #79c0ff !important; }
+body.dark-mode blockquote { color: #8b949e !important; border-left-color: #30363d; }
+
+/* Post content area */
+body.dark-mode .blog-post { color: #cdd9e5 !important; }
+
+/* Code blocks */
+body.dark-mode pre, body.dark-mode .highlight {
+  background: #161b22 !important;
+  border: 1px solid #30363d !important;
+}
+body.dark-mode code {
+  background: #1c2128 !important;
+  color: #e6edf3 !important;
+}
+body.dark-mode pre code { background: transparent !important; }
+
+/* Inline elements */
+body.dark-mode hr { border-color: #30363d; }
+body.dark-mode table { border-color: #30363d; }
+body.dark-mode th { background: #161b22 !important; color: #e6edf3 !important; border-color: #30363d !important; }
+body.dark-mode td { border-color: #30363d !important; color: #cdd9e5 !important; }
+
+/* Intro header */
+body.dark-mode .intro-header { background-color: #161b22 !important; }
+body.dark-mode .intro-header .post-heading h1,
+body.dark-mode .intro-header .post-heading .post-subheading,
+body.dark-mode .intro-header .post-heading .post-meta { color: #e6edf3 !important; }
+
+/* Footer */
+body.dark-mode footer.footer-custom {
+  background: #161b22 !important;
+  border-top: 1px solid #30363d;
+  color: #8b949e !important;
+}
+body.dark-mode footer .footer-links a { color: #8b949e !important; }
+body.dark-mode footer .footer-links a:hover { color: #58a6ff !important; }
+
+/* Comments wrapper */
+body.dark-mode .fb-comments-card { background: #161b22 !important; border-color: #30363d !important; }
+body.dark-mode .fb-reactions-bar { background: #161b22 !important; border-color: #30363d !important; }
+body.dark-mode .fb-reaction-btn { color: #8b949e !important; }
+body.dark-mode .fb-reaction-btn:hover { background: #21262d !important; }
+body.dark-mode .fb-comments-footer { background: #161b22 !important; border-color: #30363d !important; color: #8b949e !important; }
+
+/* TOC */
+body.dark-mode #toc-nav { background: #161b22 !important; border-color: #30363d !important; }
+body.dark-mode #toc-header { color: #8b949e !important; border-color: #30363d !important; }
+body.dark-mode #toc-list a { color: #8b949e !important; }
+body.dark-mode #toc-list a:hover { color: #58a6ff !important; background: #21262d !important; }
+body.dark-mode #toc-list a.active { color: #58a6ff !important; background: #1c2128 !important; border-color: #58a6ff !important; }
+
+/* Related posts */
+body.dark-mode .related-post-card { background: #161b22 !important; border-color: #30363d !important; }
+body.dark-mode .related-post-card:hover { border-color: #58a6ff !important; }
+body.dark-mode .related-post-title { color: #e6edf3 !important; }
+body.dark-mode .related-post-card:hover .related-post-title { color: #58a6ff !important; }
+
+/* Search overlay */
+body.dark-mode #search-modal { background: #161b22 !important; border-color: #30363d !important; }
+body.dark-mode #search-input-row { border-color: #30363d !important; }
+body.dark-mode #nav-search-input { color: #e6edf3 !important; }
+body.dark-mode #search-results-container li:hover { background: #21262d !important; }
+body.dark-mode .search-result-title { color: #e6edf3 !important; }
+body.dark-mode #nav-search-exit { background: #21262d !important; color: #8b949e !important; }
+
+/* Blog tags */
+body.dark-mode .blog-tags a { color: #58a6ff !important; }
+
+/* Pagination */
+body.dark-mode .page-link { background: #161b22 !important; border-color: #30363d !important; color: #58a6ff !important; }

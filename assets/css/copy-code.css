@@ -1,0 +1,51 @@
+.code-block-wrapper {
+  position: relative;
+}
+
+.copy-code-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 6px;
+  color: #cdd9e5;
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s, background 0.15s, color 0.15s;
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.02em;
+}
+
+.code-block-wrapper:hover .copy-code-btn {
+  opacity: 1;
+}
+
+.copy-code-btn:hover {
+  background: rgba(255,255,255,0.16);
+  color: #fff;
+}
+
+.copy-code-btn.copied {
+  opacity: 1;
+  background: rgba(0, 200, 120, 0.25);
+  border-color: rgba(0, 200, 120, 0.5);
+  color: #4ade80;
+}
+
+.copy-code-btn svg {
+  flex-shrink: 0;
+  transition: transform 0.15s;
+}
+
+.copy-code-btn.copied svg {
+  transform: scale(1.15);
+}

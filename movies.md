@@ -52,6 +52,7 @@ Bước chân vào những vương quốc cổ xưa, nơi phép thuật ngự tr
     <li><a href="{% link blogs/harry-potter.md %}">Harry Potter</a></li>
     <li><a href="{% link blogs/the-witcher.md %}">The Witcher</a></li>
     <li><a href="{% link blogs/thuy-hu.md %}">Thủy Hử</a></li>
+    <li><a href="{% link blogs/tam-quoc-dien-nghia.md %}">Tam Quốc Diễn Nghĩa</a></li>
     <li><a href="{% link blogs/pirates-of-the-caribbean.md %}">Pirates of the Caribbean</a></li>
     <li><a href="{% link blogs/twilight-saga.md %}">Twilight Saga</a></li>
   </ul>

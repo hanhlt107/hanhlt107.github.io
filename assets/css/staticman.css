@@ -178,3 +178,155 @@
   padding-top: 2em;
   border-top: 1px solid #f2f3f3;
 }
+
+/* ==========================================================================
+ Comment Editor Tabs (Write / Preview)
+ ========================================================================== */
+.comment-editor-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 0;
+  border-bottom: 2px solid #e1e4e8;
+}
+.comment-tab-btn {
+  padding: 6px 14px;
+  font-size: 0.85em;
+  background: none;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  color: #586069;
+  transition: background 0.15s, color 0.15s;
+  margin-bottom: -2px;
+}
+.comment-tab-btn:hover {
+  background: #f1f3f5;
+  color: #24292e;
+}
+.comment-tab-btn.active {
+  background: #fff;
+  border-color: #e1e4e8;
+  border-bottom-color: #fff;
+  color: #24292e;
+  font-weight: 600;
+}
+.comment-tab-content textarea {
+  border-top-left-radius: 0;
+  border-top: none;
+  border: 1px solid #e1e4e8 !important;
+  border-top: none !important;
+}
+
+/* ==========================================================================
+ Markdown Preview Box
+ ========================================================================== */
+.comment-preview-box {
+  min-height: 120px;
+  padding: 10px 12px;
+  background: #fafbfc;
+  border: 1px solid #e1e4e8;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  margin-bottom: 0.5em;
+}
+.comment-preview-rendered {
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: #24292e;
+}
+.comment-preview-rendered p { margin-bottom: 0.6em; }
+.comment-preview-rendered code {
+  background: #f0f0f0;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+.comment-preview-rendered pre {
+  background: #f6f8fa;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+.comment-preview-rendered blockquote {
+  border-left: 3px solid #dfe2e5;
+  color: #6a737d;
+  margin: 0;
+  padding-left: 12px;
+}
+
+/* ==========================================================================
+ Character Counter
+ ========================================================================== */
+.comment-char-counter {
+  text-align: right;
+  font-size: 0.78em;
+  color: #898c8e;
+  margin-top: -4px;
+  margin-bottom: 4px;
+  transition: color 0.2s;
+}
+.comment-char-counter.near-limit {
+  color: #e36209;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+ Remember Me checkbox
+ ========================================================================== */
+.comment-remember-me {
+  margin-top: 4px;
+}
+.comment-remember-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  color: #586069;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+.comment-remember-label input[type="checkbox"] {
+  width: auto;
+  display: inline-block;
+  margin: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+ Comment meta (date + copy link)
+ ========================================================================== */
+.comment__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 0.85em;
+  color: #898c8e;
+}
+.comment-copy-link {
+  display: inline-flex;
+  align-items: center;
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.2s;
+  position: relative;
+}
+.comment-copy-link:hover {
+  color: #008AFF;
+}
+.comment-copy-tooltip {
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #24292e;
+  color: #fff;
+  font-size: 0.78em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 10;
+}

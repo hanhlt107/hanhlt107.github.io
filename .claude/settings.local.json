@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://giscus.app/api/discussions?repo=hanhlt107/hanhlt107.github.io\")",
+      "Bash(curl -s \"https://api.github.com/repos/hanhlt107/hanhlt107.github.io\")",
+      "Bash(curl -s \"https://giscus.app/api/repo/hanhlt107/hanhlt107.github.io\")",
+      "Bash(curl -s \"https://api.github.com/repos/hanhlt107/hanhlt107.github.io/issues?labels=Comments&state=all&per_page=5\")",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(f'Issue #{i[\\\\\"number\\\\\"]}: {i[\\\\\"title\\\\\"][:60]}'\\) for i in data]\")",
+      "Bash(curl -s \"https://api.github.com/repos/hanhlt107/hanhlt107.github.io/issues?state=all&per_page=10\")",
+      "Bash(curl -s \"https://api.github.com/repos/hanhlt107/hanhlt107.github.io/discussions?per_page=5\")"
+    ]
+  }
+}

@@ -52,9 +52,16 @@ _Mùa đầu tiên là một bản giao hưởng hoàn hảo của sự tò mò,
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
 ### 🔥 Giai Đoạn 5: Mùa 5 (Dự kiến)
-  _Mùa 5 được xác nhận là mùa cuối cùng của series, hứa hẹn sẽ đưa câu chuyện về Stranger Things đến một kết cục hoành tráng và đầy cảm xúc, khép lại hành trình đầy mê hoặc đã kéo dài nhiều năm. Đây sẽ là đỉnh điểm của cuộc chiến không khoan nhượng giữa Hawkins và thế lực tà ác từ Upside Down, nơi mọi bí ẩn chưa được giải đáp sẽ được hé lộ và số phận của các nhân vật sẽ được định đoạt. Các nhân vật sẽ phải đối mặt với những thử thách lớn nhất từ trước đến nay, và người xem có thể mong đợi những hy sinh, sự đoàn kết và những khoảnh khắc bùng nổ để bảo vệ thế giới của họ._
+  _Là chương kết của toàn bộ loạt phim, Mùa 5 đưa khán giả quay trở lại Hawkins ngay sau thảm họa bốn vết nứt khổng lồ rạch đôi thị trấn ở cuối Mùa 4. Upside Down giờ đây không còn là một thế giới ẩn giấu nữa; các hạt bụi tro tàn tăm tối đã tràn qua thế giới thực, báo hiệu một cuộc xâm lăng toàn diện. Đây sẽ là trận chiến tổng lực và là đỉnh điểm của cuộc đối đầu định mệnh giữa thế giới loài người và thực thể tối thượng Vecna (Henry Creel). Những đứa trẻ ngày nào của hội chơi D&D — nay đã lớn lên trong tổn thương và mất mát — sẽ phải tập hợp lại ngay tại nơi mọi chuyện bắt đầu để bảo vệ ngôi nhà của mình. Nhịp phim được hứa hẹn sẽ dồn dập ngay từ những tập đầu tiên, đẩy các nhân vật vào những thử thách sinh tử khốc liệt nhất để định đoạt số phận của Hawkins._
 
- _Mong đợi gì_: Mùa giải cuối cùng sẽ tổng hợp tất cả các tuyến truyện và nhân vật, mang đến một cái kết thỏa mãn và đầy ý nghĩa cho người hâm mộ sau nhiều năm gắn bó với thế giới kỳ diệu và đáng sợ này. Các mối quan hệ sẽ được thắt chặt, những bí mật cuối cùng sẽ được phơi bày, và một kỷ nguyên mới sẽ mở ra cho Hawkins, dù cho cái giá phải trả có thể rất lớn.
+ _Mong đợi gì_: Mùa phim cuối cùng sẽ giải quyết triệt để những nút thắt lớn nhất còn bỏ ngỏ, mang đến một cái kết thỏa mãn và đầy cảm xúc:
+- **Trận chiến tâm linh giữa Eleven và Vecna:** Sau thất bại đau đớn ở Mùa 4, Eleven phải tìm cách khôi phục và nâng cấp hoàn toàn sức mạnh của mình để đối đầu với mối liên kết tâm linh trực tiếp từ Vecna. Trận chiến này không chỉ là cuộc đấu sức mạnh, mà còn là cuộc chiến đối diện với những ký ức đen tối nhất từ phòng thí nghiệm của Tiến sĩ Brenner.
+
+- **Sự thức tỉnh của Max và vai trò của Will Byers:** Khán giả sẽ có câu trả lời về số phận của Max Mayfield sau khi bị Vecna nguyền rủa và rơi vào trạng thái hôn mê. Đồng thời, Will Byers — người đầu tiên kết nối với Upside Down — sẽ trở lại vị trí trung tâm của câu chuyện khi cảm giác rùng mình sau gáy của cậu một lần nữa trỗi dậy, biến cậu thành chìa khóa để thấu hiểu và đánh bại Mind Flayer cùng Vecna.
+
+- **Sự đoàn kết của các nhóm nhân vật:** Không còn bị chia cắt ở California hay nước Nga xa xôi, toàn bộ các tuyến nhân vật từ nhóm trẻ (Mike, Dustin, Lucas, Will), hội thiếu niên (Nancy, Steve, Jonathan, Robin) cho đến người lớn (Joyce, Hopper) sẽ cùng sát cánh bên nhau tại Hawkins, tạo nên một sự đồng lòng chưa từng có.
+
+- **Sự hy sinh và một kỷ nguyên mới:** Để đóng lại vĩnh viễn cánh cổng Upside Down, các nhân vật có thể sẽ phải đánh đổi bằng những cái giá rất đắt. Những giọt nước mắt, những lời chia tay và những khoảnh khắc bùng nổ sẽ khép lại một kỷ nguyên đầy mê hoặc, mở ra một tương lai mới, nơi Hawkins cuối cùng cũng tìm lại được sự bình yên vốn có.
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 

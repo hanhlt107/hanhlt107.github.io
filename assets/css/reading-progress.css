@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Reading Progress Bar
+   ========================================================================== */
+
+#reading-progress-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.06);
+  pointer-events: none;
+}
+
+#reading-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #008AFF 0%, #00c6ff 100%);
+  border-radius: 0 2px 2px 0;
+  transition: width 0.1s linear;
+  box-shadow: 0 0 8px rgba(0, 138, 255, 0.45);
+}
+
+/* Pill badge showing percentage */
+#reading-progress-badge {
+  position: fixed;
+  bottom: 28px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: #fff;
+  border: 1.5px solid #e1e4e8;
+  border-radius: 99px;
+  padding: 6px 14px 6px 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.82rem;
+  color: #444;
+  cursor: default;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+
+#reading-progress-badge.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mini circular arc */
+#reading-progress-badge .rp-circle-wrap {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+#reading-progress-badge .rp-circle-wrap svg {
+  transform: rotate(-90deg);
+}
+
+#reading-progress-badge .rp-circle-bg {
+  fill: none;
+  stroke: #e9ecef;
+  stroke-width: 3;
+}
+
+#reading-progress-badge .rp-circle-fill {
+  fill: none;
+  stroke: #008AFF;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 75.4; /* 2 * π * r (r=12) */
+  stroke-dashoffset: 75.4;
+  transition: stroke-dashoffset 0.2s linear;
+}
+
+#reading-progress-badge .rp-percent {
+  font-weight: 700;
+  color: #008AFF;
+  font-size: 0.85rem;
+  min-width: 32px;
+}
+
+#reading-progress-badge .rp-label {
+  color: #888;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+/* Hide badge at very top (< 3%) and at bottom (>= 99%) */
+#reading-progress-badge.at-top,
+#reading-progress-badge.at-bottom {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Responsive: smaller on mobile */
+@media (max-width: 576px) {
+  #reading-progress-badge {
+    bottom: 16px;
+    right: 14px;
+    padding: 5px 10px 5px 8px;
+    font-size: 0.76rem;
+  }
+  #reading-progress-badge .rp-circle-wrap {
+    width: 24px;
+    height: 24px;
+  }
+  #reading-progress-badge .rp-label {
+    display: none;
+  }
+}

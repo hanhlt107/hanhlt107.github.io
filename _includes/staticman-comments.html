@@ -23,21 +23,41 @@
       <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
       <form id="new_comment" class="page__comments-form js-form form" method="post">
         <div class="form-group">
-          <label for="comment-form-message">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small class="required">*</small></label><br>
-          <textarea type="text" rows="12" cols="36" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
-          <div class="small form-text"><a href="https://daringfireball.net/projects/markdown/">{{ site.data.ui-text[site.locale].comment_form_md_info | default: "Markdown is supported." }}</a></div>
+          <label for="comment-form-message">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small class="required">*</small></label>
+          <!-- Markdown Preview Tabs -->
+          <div class="comment-editor-tabs">
+            <button type="button" class="comment-tab-btn active" data-tab="write">&#9998; Viết</button>
+            <button type="button" class="comment-tab-btn" data-tab="preview">&#128065; Xem trước</button>
+          </div>
+          <div class="comment-tab-content" id="tab-write">
+            <textarea rows="8" id="comment-form-message" name="fields[message]" tabindex="1" maxlength="2000" placeholder="Nhập nội dung comment... (hỗ trợ Markdown)"></textarea>
+            <div class="comment-char-counter"><span id="comment-char-count">0</span> / 2000</div>
+          </div>
+          <div class="comment-tab-content comment-preview-box" id="tab-preview" style="display:none;">
+            <div id="comment-preview-content" class="comment-preview-rendered"></div>
+          </div>
+          <div class="small form-text"><a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">{{ site.data.ui-text[site.locale].comment_form_md_info | default: "Markdown is supported." }}</a></div>
         </div>
-        <div class="form-group">
-          <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
-          <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
-        </div>
-        <div class="form-group">
-          <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
-          <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
+            <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" placeholder="Tên của bạn" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
+            <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" placeholder="email@example.com" />
+          </div>
         </div>
         <div class="form-group">
           <label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website (optional)" }}</label>
-          <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+          <input type="url" id="comment-form-url" name="fields[url]" tabindex="4" placeholder="https://..." />
+        </div>
+        <!-- Remember Me -->
+        <div class="form-group comment-remember-me">
+          <label class="comment-remember-label">
+            <input type="checkbox" id="comment-remember-me" tabindex="5" />
+            <span>Nhớ thông tin của tôi</span>
+          </label>
         </div>
         <div class="form-group d-none" style="display: none;">
           <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
@@ -59,8 +79,8 @@
           </div>
         {% endif %}
         <div class="form-group">
-          <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn-primary btn-lg">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
-          <button type="submit" id="comment-form-submitted" tabindex="5" class="btn btn-primary btn-lg d-none" disabled>{{ site.data.ui-text[site.locale].comment_btn_submitted | default: "Submitted" }}</button>
+          <button type="submit" id="comment-form-submit" tabindex="6" class="btn btn-primary btn-lg">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+          <button type="submit" id="comment-form-submitted" tabindex="6" class="btn btn-primary btn-lg d-none" disabled>{{ site.data.ui-text[site.locale].comment_btn_submitted | default: "Submitted" }}</button>
         </div>
       </form>
     </div>
@@ -72,12 +92,13 @@
   </div>
 
   <!-- Load script to handle comment form submission -->
-  <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
   <script>
     if (typeof jQuery == 'undefined') {
       document.write('<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></scr' + 'ipt>');
     }
   </script>
+  <!-- marked.js for Markdown Preview -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="{{ "/assets/js/staticman.js" | relative_url }}"></script>
 </div>
 {% endif %}

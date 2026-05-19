@@ -1,0 +1,250 @@
+/* ==========================================================================
+   Giscus Custom Theme — inject vào bên trong iframe
+   ========================================================================== */
+
+/* ── Base ──────────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  background: #fff;
+  color: #1c1e21;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ── Reaction summary bar (1 lượt bày tỏ cảm xúc) ─────────────────────── */
+.gsc-reactions-count {
+  font-size: 0.82rem;
+  color: #65676b;
+  font-weight: 500;
+}
+
+.gsc-reactions-menu {
+  border: 1px solid #e4e6eb;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+  padding: 6px 8px;
+}
+
+.gsc-emoji-button {
+  border-radius: 6px;
+  transition: background 0.12s, transform 0.12s;
+  padding: 3px 6px;
+}
+.gsc-emoji-button:hover {
+  background: #f0f2f5;
+  transform: scale(1.15);
+}
+.gsc-emoji-button.has-reacted {
+  background: #e7f3ff;
+  border-color: #1877f2;
+}
+.gsc-emoji-button.has-reacted span { color: #1877f2; }
+
+/* ── Comment count heading ─────────────────────────────────────────────── */
+.gsc-comments-count {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1c1e21;
+}
+.gsc-comments-count-separator {
+  color: #bcc0c4;
+}
+
+/* ── Header tabs (Viết Bình Luận / Xem Trước) ──────────────────────────── */
+.gsc-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.gsc-tab-button {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #65676b;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  padding: 8px 14px;
+  background: none;
+  transition: color 0.14s, border-color 0.14s;
+}
+.gsc-tab-button:hover { color: #1c1e21; }
+.gsc-tab-button[aria-selected=true] {
+  color: #1877f2;
+  border-bottom-color: #1877f2;
+}
+
+/* ── Textarea ───────────────────────────────────────────────────────────── */
+.gsc-comment-box-textarea,
+textarea {
+  font-family: inherit;
+  font-size: 0.88rem;
+  color: #1c1e21;
+  background: #f7f8fa;
+  border: 1.5px solid #e4e6eb;
+  border-radius: 10px;
+  padding: 10px 12px;
+  transition: border-color 0.15s, background 0.15s;
+  resize: vertical;
+  line-height: 1.55;
+}
+.gsc-comment-box-textarea:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1877f2;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(24,119,242,0.1);
+}
+.gsc-comment-box-textarea::placeholder { color: #bcc0c4; }
+
+/* ── Toolbar dưới textarea ──────────────────────────────────────────────── */
+.gsc-comment-box-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 2px 4px;
+}
+
+/* ── Nút Bình Luận (submit) ─────────────────────────────────────────────── */
+.gsc-comment-box-submit,
+button[type=submit],
+.btn-primary {
+  background: linear-gradient(135deg, #1877f2 0%, #0a5fd8 100%) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 8px 20px !important;
+  font-size: 0.84rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: opacity 0.15s, transform 0.12s !important;
+  font-family: inherit !important;
+  letter-spacing: 0.01em !important;
+  box-shadow: 0 2px 8px rgba(24,119,242,0.3) !important;
+}
+.gsc-comment-box-submit:hover,
+button[type=submit]:hover {
+  opacity: 0.92 !important;
+  transform: translateY(-1px) !important;
+}
+.gsc-comment-box-submit:disabled,
+button[type=submit]:disabled {
+  opacity: 0.45 !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+}
+
+/* ── Sign out / Đăng xuất link ──────────────────────────────────────────── */
+.gsc-comment-box-logout a,
+.gsc-social-reaction-summary-item a {
+  color: #65676b;
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+.gsc-comment-box-logout a:hover { color: #1877f2; text-decoration: underline; }
+
+/* ── Comment item ───────────────────────────────────────────────────────── */
+.gsc-comment {
+  background: #fff;
+  border: 1px solid #e4e6eb;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  transition: box-shadow 0.15s;
+}
+.gsc-comment:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.gsc-comment-author {
+  font-weight: 700;
+  color: #1c1e21;
+  font-size: 0.88rem;
+}
+.gsc-comment-author-avatar img {
+  border-radius: 50%;
+  border: 2px solid #e4e6eb;
+}
+.gsc-comment-content {
+  font-size: 0.88rem;
+  color: #1c1e21;
+  line-height: 1.6;
+  margin-top: 6px;
+}
+
+/* ── Reply button ───────────────────────────────────────────────────────── */
+.gsc-reply-button,
+button.gsc-reply-button {
+  font-size: 0.78rem;
+  color: #65676b;
+  font-weight: 600;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 3px 6px;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+}
+.gsc-reply-button:hover {
+  background: #f0f2f5;
+  color: #1877f2;
+}
+
+/* ── Date / time ────────────────────────────────────────────────────────── */
+.gsc-comment-edited,
+relative-time, time-ago {
+  font-size: 0.74rem;
+  color: #bcc0c4;
+}
+
+/* ── Markdown content ───────────────────────────────────────────────────── */
+.gsc-comment-content p { margin: 0 0 8px; }
+.gsc-comment-content code {
+  background: #f0f2f5;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.85em;
+}
+.gsc-comment-content pre {
+  background: #f6f8fa;
+  border-radius: 8px;
+  padding: 12px;
+  overflow-x: auto;
+  border: 1px solid #e4e6eb;
+}
+.gsc-comment-content blockquote {
+  border-left: 3px solid #1877f2;
+  padding-left: 12px;
+  color: #65676b;
+  margin: 8px 0;
+}
+
+/* ── Load more button ───────────────────────────────────────────────────── */
+.gsc-pagination button,
+.btn-outline {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1877f2;
+  background: #fff;
+  border: 1.5px solid #1877f2;
+  border-radius: 8px;
+  padding: 7px 18px;
+  cursor: pointer;
+  transition: background 0.14s, color 0.14s;
+}
+.gsc-pagination button:hover,
+.btn-outline:hover {
+  background: #eef4ff;
+}
+
+/* ── Powered by footer ──────────────────────────────────────────────────── */
+.gsc-powered-by {
+  font-size: 0.72rem;
+  color: #bcc0c4;
+  text-align: center;
+  padding: 10px 0 4px;
+}
+.gsc-powered-by a { color: #1877f2; text-decoration: none; font-weight: 600; }
+.gsc-powered-by a:hover { text-decoration: underline; }

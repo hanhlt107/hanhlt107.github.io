@@ -24,9 +24,25 @@ _Bộ phim không chỉ nổi bật nhờ cốt truyện giàu ý nghĩa nhân v
 
 ![anh](/assets/img/the-lord-of-the-rings-1.jpg)
 
-_Một chiếc nhẫn quyền năng – chứa đựng sức mạnh hủy diệt cả thế giới và là công cụ để Chúa tể Bóng tối Sauron thống trị Trung Địa – rơi vào tay cậu hobbit nhỏ bé Frodo Baggins (Elijah Wood), cháu của Bilbo Baggins. Để ngăn chặn Sauron trỗi dậy và đòi lại chiếc nhẫn, Frodo cùng nhóm đồng minh đặc biệt được thành lập tại Hội đồng Elrond ở Rivendell, lập nên Hội Đồng Nhẫn (The Fellowship of the Ring). Nhóm bao gồm chín thành viên: phù thủy Gandalf (Ian McKellen), chiến binh loài người Aragorn (Viggo Mortensen) và Boromir (Sean Bean), cung thủ tiên Legolas (Orlando Bloom), chiến binh người lùn Gimli (John Rhys-Davies), và bốn hobbit Frodo, Samwise Gamgee (Sean Astin), Meriadoc Brandybuck (Dominic Monaghan), cùng Peregrin Took (Billy Boyd)._
+Câu chuyện bắt đầu tại vùng đất Trung Địa (Middle-earth), nơi một thế lực hắc ám cổ xưa đang trỗi dậy. Hàng ngàn năm trước, Chúa tể bóng tối Sauron đã rèn nên Chiếc Nhẫn Quyền Năng (One Ring) để thống trị tất cả các chủng tộc. Trong trận chiến cuối cùng giữa liên minh loài người và tiên tộc, hoàng tử Isildur đã chặt đứt ngón tay Sauron, chiếm lấy chiếc nhẫn nhưng lại không tiêu hủy nó, để rồi bị nó tha hóa và cuối cùng đánh mất chiếc nhẫn xuống dòng sông.
 
-_Hành trình đầu tiên của Hội Đồng Nhẫn đưa khán giả đi qua những vùng đất huyền thoại và đầy hiểm nguy của Trung Địa: từ Shire yên bình của các hobbit, qua khu rừng già Fangorn, đến Moria tăm tối và đầy rẫy Orc và Balrog, Rivendell tráng lệ của tiên tộc. Họ phải đối mặt với nhiều thử thách, sự truy đuổi không ngừng của các Nazgûl (Ringwraiths) và sự cám dỗ của chiếc nhẫn. Kết thúc bằng sự tan rã đau lòng của Hội Đồng khi Boromir ngã xuống trong trận chiến với lũ Orc Uruk-hai tại Amon Hen, nhưng tình bạn bền chặt giữa Frodo và Sam trở thành ánh sáng dẫn đường, khi họ quyết định tiếp tục hành trình một mình đến Mordor để hủy diệt chiếc nhẫn._
+Sau 2.500 năm, chiếc nhẫn được tìm thấy bởi sinh vật tên Gollum, rồi lại rơi vào tay Bilbo Baggins – một người Hobbit bình dị tại vùng Shire. Vào tiệc sinh nhật lần thứ 111 của Bilbo, phù thủy Gandalf Xám đến thăm và phát hiện ra bản chất thực sự của chiếc nhẫn. Ông yêu cầu Bilbo để lại chiếc nhẫn cho người cháu trai, Frodo Baggins, và rời đi.
+
+Gandalf nhận ra Sauron đã quay lại và đang ráo riết săn tìm chiếc nhẫn. Ông cảnh báo Frodo phải mang chiếc nhẫn rời khỏi Shire ngay lập tức. Frodo lên đường cùng người làm vườn trung thành Samwise Gamgee, và nhanh chóng hội ngộ cùng hai người bạn tinh quái là Merry và Pippin.
+
+Trên đường đi, nhóm bốn người Hobbit bị các Nazgûl (Kỵ sĩ đen – đầy tớ của Sauron) truy sát. Họ được cứu bởi Strider (Aragorn), một người bí ẩn vùng hoang dã. Dù bị thương nặng do lưỡi kiếm ma thuật của Nazgûl, Frodo vẫn được Aragorn đưa đến Rivendell – thành trì của các Tiên tộc – nhờ sự giúp đỡ của nữ tiên Arwen.
+
+Tại Rivendell, lãnh chúa Elrond triệu tập một hội đồng gồm đại diện các chủng tộc: Người, Tiên và Người lùn. Họ đi đến quyết định duy nhất: chiếc nhẫn phải bị hủy diệt tại Núi Diệt Vong (Mount Doom) ở vùng đất Mordor, nơi nó được tạo ra. Frodo dũng cảm tình nguyện thực hiện nhiệm vụ, và Liên minh Nhẫn được thành lập với 9 thành viên: Frodo, Sam, Merry, Pippin, Gandalf, Aragorn, Boromir (con trai quan nhiếp chính Gondor), Legolas (tiên tộc) và Gimli (người lùn).
+
+Liên minh đi qua dãy núi Misty đầy tuyết phủ nhưng buộc phải đi xuyên qua hầm mỏ Moria khi Sauron điều động bão tuyết ngăn cản. Trong bóng tối của Moria, họ bị tấn công bởi đám Orc và một con quỷ lửa cổ xưa, Balrog. Để bảo vệ mọi người, Gandalf đã chiến đấu với Balrog trên cây cầu Khazad-dûm và cả hai cùng rơi xuống vực thẳm.
+
+Cả nhóm đau buồn thoát ra ngoài, đi đến vương quốc tiên Lothlórien. Tại đây, họ được Nữ hoàng Galadriel giúp đỡ và nhìn thấy những viễn cảnh tương lai.
+
+Khi cả nhóm xuôi dòng sông Anduin đến gần biên giới Mordor, họ bị đội quân Orc của phù thủy phản bội Saruman phục kích. Boromir, sau khi bị sự cám dỗ của chiếc nhẫn làm mờ mắt, đã cố giành lấy nó từ Frodo nhưng sau đó đã anh dũng hy sinh để bảo vệ Merry và Pippin khỏi quân Orc.
+
+Nhận ra chiếc nhẫn chỉ mang lại sự tha hóa cho những người bạn đồng hành, Frodo quyết định một mình tiến về Mordor. Sam, vì lòng trung thành tuyệt đối, đã đuổi theo và cùng Frodo bắt đầu hành trình đầy hiểm nguy vào vùng đất của bóng tối, để lại sau lưng những người bạn cũ đang đuổi theo quân Orc để giải cứu Merry và Pippin.
+
+Liên minh đã tan rã, nhưng sứ mệnh cứu lấy Trung Địa chỉ mới thực sự bắt đầu.
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
@@ -37,11 +53,25 @@ _Hành trình đầu tiên của Hội Đồng Nhẫn đưa khán giả đi qua 
 
 ![anh](/assets/img/the-lord-of-the-rings-2.jpg)
 
-_Khi Hội Đồng Nhẫn tan vỡ, mỗi nhân vật bước vào số phận riêng biệt nhưng đều hướng tới một mục tiêu chung là chống lại Sauron. Frodo Baggins (Elijah Wood) và Samwise Gamgee (Sean Astin) tiếp tục hành trình đầy gian nan đến Mordor để hủy diệt Chiếc Nhẫn. Họ bị theo dõi và cuối cùng bị thuyết phục dẫn đường bởi sinh vật hai mặt Gollum (Andy Serkis), người từng sở hữu chiếc nhẫn và bị nó tha hóa, tạo nên một mối quan hệ phức tạp giữa sự nghi ngờ và phụ thuộc._
+Sau khi Liên minh tan rã ở thác Rauros, hành trình chia làm ba nhánh riêng biệt, tạo nên những nút thắt đầy kịch tính trong phần phim "The Two Towers".
 
-_Trong khi đó, Aragorn (Viggo Mortensen), Legolas (Orlando Bloom) và Gimli (John Rhys-Davies) liên minh với vương quốc Rohan đang bị suy yếu, do Vua Théoden (Bernard Hill) cai trị, chuẩn bị cho trận chiến sống còn chống lại quân đội Uruk-hai khổng lồ của Saruman. Trận Helm’s Deep trở thành một trong những trận chiến điện ảnh hoành tráng nhất mọi thời đại, nơi con người, cùng với sự giúp đỡ bất ngờ của tiên tộc và những sự kiện thần kỳ khác, đứng vững trước sức mạnh hắc ám, thể hiện lòng dũng cảm và sự kiên cường. Cùng lúc đó, Merry (Dominic Monaghan) và Pippin (Billy Boyd) thoát khỏi sự giam cầm của Orc và gặp những Ent (Người Cây) ở rừng Fangorn, thuyết phục họ tham gia vào cuộc chiến chống lại Saruman tại Isengard._
+Frodo và Sam tiếp tục tiến về phía Mordor. Trong bóng tối của vùng đất chết Emyn Muil, họ phát hiện ra mình đang bị Gollum – sinh vật từng sở hữu chiếc Nhẫn – bám đuôi. Sau một cuộc giằng co, Frodo và Sam khống chế được Gollum. Frodo, với sự thương cảm của một người cũng từng mang Nhẫn, đã quyết định tha mạng và biến Gollum thành người dẫn đường đến Núi Diệt Vong.
 
-_Gollum ngày càng lộ rõ sự nguy hiểm và bản chất xảo quyệt của mình, gieo rắc hoài nghi và bóng tối lên hành trình của Frodo và Sam, liên tục cố gắng giành lại chiếc nhẫn. Mùa phim kết thúc với hy vọng mới cho các lực lượng thiện khi họ giành được những chiến thắng quan trọng, nhưng cuộc chiến vẫn còn rất dài và đầy cam go._
+Mối quan hệ giữa họ vô cùng phức tạp: Gollum bị giằng xé giữa nhân cách cũ (Smeagol) – vốn thiện lương, và nhân cách mới – vốn bị chiếc Nhẫn làm cho tha hóa hoàn toàn. Trong khi Sam luôn cảnh giác và nghi ngờ, Frodo lại dần đồng cảm với nỗi đau của Gollum. Dưới sự dẫn dắt của hắn, họ băng qua Đầm lầy Chết (Dead Marshes) để đến được Cổng Đen của Mordor.
+
+Merry và Pippin bị đội quân Uruk-hai của Saruman bắt giữ. Trong lúc những kẻ bắt giữ tranh cãi và bị kỵ binh của vương quốc Rohan tiêu diệt, hai người Hobbit đã trốn thoát vào rừng Fangorn. Tại đây, họ gặp Treebeard – người đứng đầu tộc người cây Ents.
+
+Trong khi Merry và Pippin cố gắng thuyết phục tộc Ents rằng Saruman đang tàn phá thiên nhiên, họ đã chứng kiến sự tàn bạo của Saruman khi hắn chặt phá rừng để xây dựng quân đội. Cuối cùng, phẫn nộ trước sự hủy diệt, tộc Ents quyết định trỗi dậy, tấn công vào pháo đài Isengard của Saruman, đánh sập các con đập và nhấn chìm toàn bộ công xưởng sản xuất quân đội của hắn.
+
+Ba người bạn dấn thân vào cuộc truy đuổi quân Orc để cứu hai người Hobbit. Tại vương quốc Rohan, họ kinh ngạc khi thấy Gandalf đã trở lại. Ông giờ đây là "Gandalf Áo Trắng", người có sức mạnh quyền năng hơn hẳn trước kia.
+
+Họ cùng nhau đến vương quốc Rohan, nơi Vua Théoden đang bị Saruman dùng phép thuật thao túng. Sau khi Gandalf giải thoát cho nhà vua, họ cùng người dân Rohan di tản đến pháo đài Helm’s Deep để lánh nạn trước sự tấn công của hàng vạn quân đội Uruk-hai mà Saruman phái tới nhằm xóa sổ vương quốc này.
+
+Trận chiến tại Helm’s Deep là một trong những trận chiến kinh điển nhất lịch sử điện ảnh. Dù bị áp đảo hoàn toàn về quân số, những chiến binh Rohan, cùng với Aragorn, Legolas, Gimli và sự trợ giúp bất ngờ từ một đội quân tiên, đã tử thủ trong đêm mưa tầm tã. Vào thời khắc tuyệt vọng nhất, Gandalf xuất hiện cùng kỵ binh Rohan từ phía đỉnh núi, đánh tan đội quân của Saruman và giành lại chiến thắng.
+
+Câu chuyện khép lại với sự sụp đổ của Isengard, nhưng bóng tối vẫn bao trùm. Ở cuối phim, Gollum đã hoàn toàn bị nhân cách xấu xa chiếm hữu. Hắn âm mưu dẫn dụ Frodo và Sam vào hang ổ của một con quái vật đáng sợ để giết họ và đoạt lại "Báu vật" của mình.
+
+Trung Địa đang đứng trước ngưỡng cửa của cuộc đại chiến cuối cùng khi Sauron bắt đầu tung toàn bộ sức mạnh của mình ra từ Mordor.
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 
@@ -52,9 +82,23 @@ _Gollum ngày càng lộ rõ sự nguy hiểm và bản chất xảo quyệt c�
 
 ![anh](/assets/img/the-lord-of-the-rings-3.jpg)
 
-_Phần cuối cùng bùng nổ với những trận chiến huyền thoại và quy mô lớn nhất trong lịch sử Trung Địa, quyết định số phận của toàn bộ thế giới. Từ cuộc vây hãm Minas Tirith rực lửa – thủ đô của Gondor – đến cánh đồng Pelennor ngập xác quân thù, nơi các lực lượng của Gondor và Rohan, dưới sự lãnh đạo của Aragorn, Legolas, Gimli, Merry và Pippin, phải chiến đấu chống lại đội quân khổng lồ của Sauron. Aragorn (Viggo Mortensen) trở thành nhà vua xứng đáng của Gondor, lãnh đạo con người chống lại Sauron và truyền cảm hứng cho họ chiến đấu._
+Phần cuối cùng của thiên anh hùng ca, "The Return of the King", đưa người xem đến đỉnh điểm của sự hy sinh và hy vọng. Mọi con đường đều dẫn về một mục đích cuối cùng: tiêu hủy Chiếc Nhẫn và định đoạt ngai vàng của Gondor.
 
-_Trong khi đó, Frodo Baggins (Elijah Wood) và Samwise Gamgee (Sean Astin), kiệt sức vì gánh nặng của Chiếc Nhẫn và sự ảnh hưởng của Gollum (Andy Serkis), tiến gần Núi Doom (Mount Doom), nơi duy nhất có thể hủy diệt chiếc nhẫn. Sự phản bội cuối cùng của Gollum, người tấn công Frodo để giành lại chiếc nhẫn, khiến Frodo gần như mất tất cả. Tuy nhiên, trong cuộc vật lộn cuối cùng trên miệng núi lửa, Gollum vô tình rơi vào dung nham cùng với chiếc nhẫn, kết thúc số phận của chiếc nhẫn trong chính sự ám ảnh của nó. Khi chiếc nhẫn bị hủy diệt, bóng tối của Sauron tan biến, các tòa tháp của Mordor sụp đổ, và hòa bình trở lại Trung Địa, mang theo một kỷ nguyên mới của hy vọng và sự tái thiết._
+Gollum dẫn Frodo và Sam đến hang ổ của Shelob – một con nhện khổng lồ cổ xưa – với âm mưu để nó ăn thịt hai người Hobbit rồi hắn sẽ lấy lại chiếc nhẫn. Frodo bị Shelob đâm trúng và rơi vào trạng thái hôn mê. Sam, dù đau đớn, vẫn dũng cảm chiến đấu với Shelob bằng ánh sáng từ bình của Galadriel. Tưởng Frodo đã chết, Sam lấy chiếc nhẫn để tiếp tục nhiệm vụ, nhưng khi biết Frodo vẫn còn sống và bị quân Orc bắt đi, Sam đã quay lại giải cứu bạn mình ngay giữa lòng pháo đài Cirith Ungol. Hai người kiệt sức, đói khát, nhưng vẫn lê bước tiến về phía Núi Diệt Vong.
+
+Trong khi đó, quân đội của Sauron bao vây Minas Tirith, thủ đô của Gondor. Gandalf và Pippin nỗ lực chỉ huy sự phòng thủ, trong khi Aragorn – người thừa kế thực sự của ngai vàng – cùng Legolas và Gimli đi vào Con đường của Người chết. Aragorn đã triệu hồi đội quân linh hồn bị nguyền rủa (những người đã thất hứa với tổ tiên ông) để giúp ông chiếm lấy hạm đội hải tặc Umbar, từ đó tiến về giải vây cho Minas Tirith.
+
+Trận chiến trên cánh đồng Pelennor nổ ra khốc liệt. Kỵ binh xứ Rohan dưới sự dẫn dắt của Vua Théoden đã tạo nên bước ngoặt ngoạn mục. Đáng chú ý, Éowyn (cháu gái nhà vua) đã dũng cảm đối đầu và tiêu diệt được tên Phù thủy cầm đầu các Nazgûl (Witch-king of Angmar). Tuy nhiên, chiến thắng đi kèm sự mất mát lớn khi Vua Théoden hy sinh.
+
+Aragorn nhận ra rằng Frodo và Sam không thể vào được Núi Diệt Vong nếu Sauron vẫn tập trung sự chú ý vào họ. Anh quyết định dẫn toàn bộ quân đội còn lại tiến thẳng đến Cổng Đen (Black Gate) để khiêu khích Sauron, buộc hắn phải dốc toàn bộ quân lực ra nghênh chiến, mở đường cho hai người Hobbit thực hiện nhiệm vụ cuối cùng trong sự vô hình.
+
+Tại miệng của Núi Diệt Vong, Frodo cuối cùng cũng đầu hàng trước sức mạnh cám dỗ của chiếc nhẫn và từ chối ném nó vào lửa. Đúng lúc đó, Gollum lao vào tấn công. Trong cuộc giằng co cuối cùng, Gollum giành lại được chiếc nhẫn nhưng vì quá phấn khích, hắn đã trượt chân và rơi thẳng xuống dòng nham thạch, mang theo chiếc nhẫn cùng sự hủy diệt vĩnh viễn cho Sauron.
+
+Con mắt Sauron sụp đổ, các tòa tháp của Mordor đổ nát, và đội quân của hắn hoàn toàn tan rã. Frodo và Sam được những chú đại bàng khổng lồ cứu thoát khỏi núi lửa trước khi nó phun trào.
+
+Hòa bình trở lại với Trung Địa. Aragorn lên ngôi vua, kết hôn với Arwen, đánh dấu sự khởi đầu của một kỷ nguyên thịnh vượng mới. Những người hùng Hobbit trở về Shire, nhưng họ không còn là những người cũ. Những vết sẹo tâm hồn và thể xác khiến Frodo nhận ra mình không còn thuộc về thế giới bình yên này nữa.
+
+Tại cảng Grey Havens, Frodo cùng Gandalf và các Tiên tộc lên con thuyền ra khơi, rời bỏ Trung Địa để đến vùng đất bất tử, để lại cuốn hồi ký dang dở cho Sam. Sam trở về với gia đình tại Shire, khép lại hành trình vĩ đại nhất của lịch sử Trung Địa với câu nói nổi tiếng: "Được rồi, mình về nhà thôi."
 
 <div style="border: 1px solid #e6e6e6; margin:48px 0"></div>
 

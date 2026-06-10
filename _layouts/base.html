@@ -5,6 +5,9 @@ common-css:
   - "/assets/css/search-overlay.css"
   - "/assets/css/back-to-top.css"
   - "/assets/css/copy-code.css"
+  - "/assets/css/reading-mode.css"
+  - "/assets/css/random-post.css"
+  - "/assets/css/theme-effects.css"
 common-ext-css:
   - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
@@ -22,6 +25,9 @@ common-js:
   - "/assets/js/beautifuljekyll.js"
   - "/assets/js/back-to-top.js"
   - "/assets/js/copy-code.js"
+  - "/assets/js/reading-mode.js"
+  - "/assets/js/random-post.js"
+  - "/assets/js/theme-effects.js"
 ---
 
 <!DOCTYPE html>
@@ -29,7 +35,7 @@ common-js:
 <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
 {% include head.html %}
 
-<body>
+<body{% if page.effect %} data-effect="{{ page.effect }}"{% endif %}>
 
   {% include gtm_body.html %}
 
@@ -46,6 +52,8 @@ common-js:
       <polyline points="18 15 12 9 6 15"/>
     </svg>
   </button>
+
+  {% include random-post.html %}
 
   {% include footer-scripts.html %}
 

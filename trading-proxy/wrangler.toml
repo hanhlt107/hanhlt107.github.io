@@ -1,0 +1,6 @@
+# Cấu hình deploy Cloudflare Worker.
+# Sửa "name" nếu muốn URL khác. Sau khi deploy, worker chạy ở:
+#   https://<name>.<your-subdomain>.workers.dev
+name = "trading-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-01"

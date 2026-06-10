@@ -2,6 +2,7 @@
 layout: page
 title: Twilight Saga
 subtitle: Tình yêu bất tử giữa bóng đêm và ánh sáng
+effect: snow
 ---
 
 ### Giới thiệu về Twilight Saga: Tình yêu vượt mọi giới hạn

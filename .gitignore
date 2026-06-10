@@ -3,6 +3,11 @@ _site
 .sass-cache
 .vagrant
 
+# node / wrangler (trading-proxy)
+node_modules/
+.wrangler/
+*.log
+
 # general
 .DS_Store
 Thumbs.db

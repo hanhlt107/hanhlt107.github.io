@@ -2,6 +2,7 @@
 layout: page
 title: The Matrix
 subtitle: 🕶️ Khi con người tỉnh giấc khỏi giấc mơ ảo
+effect: matrix
 ---
 _Ra mắt lần đầu năm 1999, **The Matrix** đã làm chấn động cả Hollywood với ý tưởng “thế giới giả lập” vượt thời đại. Bộ phim do chị em Wachowski đạo diễn, kết hợp võ thuật Hong Kong, hiệu ứng “bullet time” huyền thoại và những câu hỏi triết học sâu sắc về thực tại. Đây không chỉ là một bộ phim hành động khoa học viễn tưởng, mà còn là một tác phẩm mang tính biểu tượng, định hình lại cách kể chuyện và kỹ xảo điện ảnh trong thế kỷ 21._
 

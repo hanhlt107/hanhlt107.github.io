@@ -2,6 +2,7 @@
 layout: page
 title: Star Wars
 subtitle: Huyền thoại Thiên hà xa xôi
+effect: stars
 ---
 ### ⭐ Thứ Tự Xem Phim Star Wars Theo Dòng Thời Gian
 _Trong suốt nửa thế kỷ qua, 11 bộ phim Star Wars (Chiến tranh giữa các vì sao) đã ra mắt tại rạp và trở thành một phần không thể thiếu trong văn hóa đại chúng Mỹ. Loạt phim này được nhiều thế hệ người hâm mộ coi là một tượng đài của dòng phim khoa học viễn tưởng, không chỉ vì những câu chuyện hấp dẫn mà còn vì những đột phá về kỹ xảo và xây dựng thế giới._

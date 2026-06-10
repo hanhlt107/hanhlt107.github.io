@@ -8,7 +8,7 @@ body.dark-mode .post-read-time { color: #8b949e; }
 
 #back-to-top {
   position: fixed;
-  bottom: 90px;
+  bottom: 144px;
   right: 24px;
   z-index: 9998;
   width: 44px;
@@ -45,5 +45,5 @@ body.dark-mode .post-read-time { color: #8b949e; }
 }
 
 @media (max-width: 576px) {
-  #back-to-top { bottom: 80px; right: 14px; width: 40px; height: 40px; }
+  #back-to-top { bottom: 228px; right: 14px; width: 40px; height: 40px; }
 }

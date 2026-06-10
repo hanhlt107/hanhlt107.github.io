@@ -21,6 +21,8 @@ layout: base
 <link rel="stylesheet" href="{{ '/assets/css/comments-section.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/toc.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/related-posts.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/star-rating.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/resume-reading.css' | relative_url }}">
 
 {% include toc.html %}
 
@@ -93,7 +95,22 @@ layout: base
         {% for file in page.after-content %} {% include {{ file }} %} {% endfor
         %}
       </div>
-      {% endif %} {% if page.social-share %} {% include social-share.html %} {%
+      {% endif %}
+
+      <!-- Star rating -->
+      <div class="star-rating-box" id="star-rating">
+        <div class="sr-title">Bạn thấy bài viết này thế nào?</div>
+        <div class="sr-stars">
+          <button type="button" class="sr-star" data-val="5" aria-label="5 sao">★</button>
+          <button type="button" class="sr-star" data-val="4" aria-label="4 sao">★</button>
+          <button type="button" class="sr-star" data-val="3" aria-label="3 sao">★</button>
+          <button type="button" class="sr-star" data-val="2" aria-label="2 sao">★</button>
+          <button type="button" class="sr-star" data-val="1" aria-label="1 sao">★</button>
+        </div>
+        <div class="sr-thanks" id="sr-thanks"></div>
+      </div>
+
+      {% if page.social-share %} {% include social-share.html %} {%
       endif %}
 
       <ul class="pagination blog-pager">
@@ -142,7 +159,7 @@ layout: base
               src="{{ site.avatar | default: '/assets/img/avatar.jpg' | relative_url }}"
               alt="{{ site.author | default: 'Blog' }}">
             <div class="fb-header-info">
-              <span class="fb-page-name">{{ site.author | default: 'My Blog' }}</span>
+              <span class="fb-page-name">{{ site.author | default: 'XìngShì' }}</span>
               <span class="fb-comment-sub">
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                 Đăng nhập GitHub để bình luận
@@ -200,6 +217,8 @@ layout: base
 </div>
 <script src="{{ '/assets/js/reading-progress.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/star-rating.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/resume-reading.js' | relative_url }}"></script>
 <script>
   // Ẩn loading dots khi giscus iframe xuất hiện
   (function () {

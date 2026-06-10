@@ -35,15 +35,25 @@
     list.appendChild(li);
   });
 
-  // Show TOC
-  nav.classList.add('visible');
-
   // Scroll-spy
   var links = list.querySelectorAll('a');
   var headingEls = Array.from(headings);
 
+  // Chỉ hiện TOC sau khi đã cuộn qua phần đầu bài (để không đè ảnh bìa).
+  // Mốc: khi heading đầu tiên gần chạm mép trên màn hình.
+  function showThreshold() {
+    return Math.max(headingEls[0].offsetTop - 160, 240);
+  }
+
   function onScroll() {
-    var scrollY = window.pageYOffset + 100;
+    var y = window.pageYOffset;
+
+    // Ẩn/hiện theo vị trí cuộn
+    if (y > showThreshold()) nav.classList.add('visible');
+    else nav.classList.remove('visible');
+
+    // Highlight section đang đọc
+    var scrollY = y + 100;
     var active = headingEls.reduce(function (acc, h) {
       return h.offsetTop <= scrollY ? h : acc;
     }, headingEls[0]);

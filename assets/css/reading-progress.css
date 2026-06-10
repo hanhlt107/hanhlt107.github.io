@@ -25,8 +25,8 @@
 /* Pill badge showing percentage */
 #reading-progress-badge {
   position: fixed;
-  bottom: 28px;
-  right: 24px;
+  bottom: 36px;
+  right: 80px;
   z-index: 9999;
   display: flex;
   align-items: center;

@@ -1,0 +1,189 @@
+/* ===== Reading Mode (Lo-fi Spotify + focus dim) ===== */
+
+/* Floating toggle button */
+#reading-mode-btn {
+  position: fixed;
+  bottom: 36px;
+  right: 24px;
+  z-index: 9998;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: #6c5ce7;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(108, 92, 231, 0.35);
+  transition: transform 0.2s ease, background 0.15s, box-shadow 0.2s;
+}
+
+#reading-mode-btn:hover {
+  background: #5b4bd1;
+  transform: translateY(-2px) scale(1.08);
+  box-shadow: 0 6px 20px rgba(108, 92, 231, 0.45);
+}
+
+#reading-mode-btn:active {
+  transform: scale(0.95);
+}
+
+#reading-mode-btn.active {
+  background: #00b894;
+  box-shadow: 0 4px 16px rgba(0, 184, 148, 0.4);
+}
+
+#reading-mode-btn.active:hover {
+  background: #00a383;
+}
+
+/* Pulsing dot when music is playing */
+#reading-mode-btn.active::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #ffeaa7;
+  box-shadow: 0 0 0 0 rgba(255, 234, 167, 0.7);
+  animation: rm-pulse 1.6s infinite;
+}
+
+@keyframes rm-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(255, 234, 167, 0.7); }
+  70%  { box-shadow: 0 0 0 7px rgba(255, 234, 167, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 234, 167, 0); }
+}
+
+/* Player panel */
+#reading-mode-panel {
+  position: fixed;
+  bottom: 24px;
+  right: 80px;
+  z-index: 9999;
+  width: 320px;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
+  overflow-x: hidden;
+  opacity: 0;
+  transform: translateY(16px) scale(0.96);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+#reading-mode-panel.open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+#reading-mode-panel .rm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background: linear-gradient(135deg, #6c5ce7, #00b894);
+  color: #fff;
+}
+
+#reading-mode-panel .rm-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#reading-mode-panel .rm-close {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+
+#reading-mode-panel .rm-close:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+#reading-mode-panel .rm-body {
+  padding: 12px;
+}
+
+/* Playlist picker */
+#reading-mode-panel .rm-picker {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+#reading-mode-panel .rm-chip {
+  flex: 1 1 auto;
+  padding: 5px 10px;
+  font-size: 0.78rem;
+  border-radius: 999px;
+  border: 1px solid #d8d8e0;
+  background: #f4f4f8;
+  color: #444;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+#reading-mode-panel .rm-chip:hover {
+  border-color: #6c5ce7;
+  color: #6c5ce7;
+}
+
+#reading-mode-panel .rm-chip.selected {
+  background: #6c5ce7;
+  border-color: #6c5ce7;
+  color: #fff;
+}
+
+#reading-mode-panel iframe {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
+/* ---- Dark mode adaptations ---- */
+body.dark-mode #reading-mode-panel {
+  background: #161b22;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode #reading-mode-panel .rm-chip {
+  background: #21262d;
+  border-color: #30363d;
+  color: #c9d1d9;
+}
+
+body.dark-mode #reading-mode-panel .rm-chip:hover {
+  border-color: #8b7bf0;
+  color: #b3a7f5;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  #reading-mode-btn { bottom: 128px; right: 14px; width: 40px; height: 40px; }
+  #reading-mode-panel { bottom: 14px; right: 14px; left: 14px; width: auto; max-width: none; }
+}

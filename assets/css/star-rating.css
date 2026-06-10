@@ -1,0 +1,71 @@
+/* ===== Star rating (per-reader, saved locally) ===== */
+.star-rating-box {
+  margin: 40px 0 8px;
+  padding: 22px 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #fff9f0, #fff);
+  text-align: center;
+}
+
+.star-rating-box .sr-title {
+  font-size: 1.02rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #333;
+}
+
+.star-rating-box .sr-stars {
+  display: inline-flex;
+  gap: 6px;
+  direction: rtl; /* enables :hover highlight of star + all to its left */
+}
+
+.star-rating-box .sr-star {
+  font-size: 2rem;
+  line-height: 1;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d9d9d9;
+  padding: 0 2px;
+  transition: transform 0.12s ease, color 0.12s ease;
+}
+
+.star-rating-box .sr-star:hover,
+.star-rating-box .sr-star:hover ~ .sr-star,
+.star-rating-box .sr-star.on {
+  color: #ffb400;
+}
+
+.star-rating-box .sr-star:hover {
+  transform: scale(1.2);
+}
+
+.star-rating-box .sr-thanks {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #00a383;
+  font-weight: 600;
+  min-height: 20px;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.star-rating-box .sr-thanks.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Dark mode */
+body.dark-mode .star-rating-box {
+  border-color: #30363d;
+  background: linear-gradient(135deg, #1a1f27, #161b22);
+}
+
+body.dark-mode .star-rating-box .sr-title { color: #c9d1d9; }
+body.dark-mode .star-rating-box .sr-star { color: #3a4048; }
+body.dark-mode .star-rating-box .sr-star:hover,
+body.dark-mode .star-rating-box .sr-star:hover ~ .sr-star,
+body.dark-mode .star-rating-box .sr-star.on { color: #ffb400; }

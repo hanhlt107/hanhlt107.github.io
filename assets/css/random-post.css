@@ -1,0 +1,42 @@
+/* Random post floating button */
+#random-post-btn {
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  z-index: 9998;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: #e17055;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(225, 112, 85, 0.35);
+  transition: transform 0.2s ease, background 0.15s, box-shadow 0.2s;
+}
+
+#random-post-btn:hover {
+  background: #d65f44;
+  transform: translateY(-2px) scale(1.08);
+  box-shadow: 0 6px 20px rgba(225, 112, 85, 0.45);
+}
+
+#random-post-btn:active {
+  transform: scale(0.95);
+}
+
+#random-post-btn.rolling svg {
+  animation: rp-roll 0.35s ease;
+}
+
+@keyframes rp-roll {
+  from { transform: rotate(0deg) scale(1); }
+  to   { transform: rotate(360deg) scale(1.2); }
+}
+
+@media (max-width: 576px) {
+  #random-post-btn { bottom: 178px; right: 14px; width: 40px; height: 40px; }
+}

@@ -1,0 +1,22 @@
+/* ===== Theme effects (opt-in per page via front matter `effect:`) =====
+ * A full-viewport canvas sits behind the content and renders a subtle,
+ * non-distracting ambient animation. Pointer events disabled so it never
+ * blocks reading or clicks. */
+#theme-effect-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Keep page content above the canvas. */
+body.has-theme-effect .navbar,
+body.has-theme-effect main,
+body.has-theme-effect .container-md,
+body.has-theme-effect .container-fluid,
+body.has-theme-effect footer {
+  position: relative;
+  z-index: 1;
+}

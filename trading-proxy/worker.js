@@ -32,7 +32,7 @@ function corsHeaders(origin) {
   const allow = ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
   return {
     "Access-Control-Allow-Origin": allow,
-    "Access-Control-Allow-Methods": "GET, OPTIONS",
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type",
     "Cache-Control": "public, max-age=15",
   };
@@ -236,19 +236,93 @@ async function forex(url, origin) {
   );
 }
 
+// ---------- Text-to-Speech (Google Cloud TTS) ----------
+// Đọc bài viết bằng giọng tiếng Việt chất lượng cao. Key giữ trong Worker
+// secret (env.GOOGLE_TTS_KEY), KHÔNG lộ ra trang tĩnh.
+//
+// POST /tts   body: { "text": "...", "voice": "vi-VN-Wavenet-A", "rate": 1 }
+// -> trả về { audioContent: "<base64 mp3>" }  (client phát bằng <audio>)
+//
+// Google TTS giới hạn 5000 ký tự / request, nên client chia nhỏ theo đoạn.
+const TTS_MAX_CHARS = 4800;
+const TTS_DEFAULT_VOICE = "vi-VN-Wavenet-A"; // giọng nữ; Wavenet-B/C/D cũng có
+
+async function tts(request, origin, env) {
+  if (!env || !env.GOOGLE_TTS_KEY)
+    return err("Worker chưa cấu hình GOOGLE_TTS_KEY", origin, 500);
+
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return err("Body phải là JSON { text }", origin, 400);
+  }
+
+  const text = (body.text || "").toString().slice(0, TTS_MAX_CHARS).trim();
+  if (!text) return err("Thiếu text", origin, 400);
+
+  const voiceName = (body.voice || TTS_DEFAULT_VOICE).toString();
+  let rate = parseFloat(body.rate);
+  if (!(rate >= 0.25 && rate <= 4)) rate = 1; // Google cho phép 0.25–4.0
+
+  const payload = {
+    input: { text },
+    voice: { languageCode: "vi-VN", name: voiceName },
+    audioConfig: { audioEncoding: "MP3", speakingRate: rate },
+  };
+
+  const res = await fetch(
+    "https://texttospeech.googleapis.com/v1/text:synthesize?key=" +
+      encodeURIComponent(env.GOOGLE_TTS_KEY),
+    {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(payload),
+    }
+  );
+
+  if (!res.ok) {
+    const detail = await res.text().catch(() => "");
+    return err("Lỗi Google TTS: " + res.status + " " + detail.slice(0, 200), origin);
+  }
+
+  const data = await res.json();
+  // Cache mạnh hơn data tài chính: cùng text+voice -> cùng audio.
+  return new Response(JSON.stringify({ audioContent: data.audioContent }), {
+    status: 200,
+    headers: {
+      ...JSON_HEADERS,
+      ...corsHeaders(origin),
+      "Cache-Control": "public, max-age=86400",
+    },
+  });
+}
+
 // ---------- Router ----------
 
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const url = new URL(request.url);
     const origin = request.headers.get("Origin") || "";
 
     if (request.method === "OPTIONS")
-      return new Response(null, { headers: corsHeaders(origin) });
-    if (request.method !== "GET")
-      return err("Chỉ hỗ trợ GET", origin, 405);
+      return new Response(null, {
+        headers: {
+          ...corsHeaders(origin),
+          "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        },
+      });
 
     try {
+      // POST routes (TTS gửi text dài).
+      if (request.method === "POST") {
+        if (url.pathname === "/tts") return await tts(request, origin, env);
+        return err("Route POST không tồn tại", origin, 404);
+      }
+
+      if (request.method !== "GET")
+        return err("Chỉ hỗ trợ GET/POST", origin, 405);
+
       switch (url.pathname) {
         case "/health":
           return json({ ok: true, ts: Date.now() }, origin);

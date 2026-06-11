@@ -1,0 +1,33 @@
+/* ===== Easter egg: Konami code → emoji rain + toast ===== */
+#egg-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99998;
+  pointer-events: none;
+}
+
+#egg-toast {
+  position: fixed;
+  left: 50%;
+  top: 24px;
+  transform: translateX(-50%) translateY(-20px);
+  z-index: 99999;
+  background: linear-gradient(135deg, #6c5ce7, #e17055);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 12px 22px;
+  border-radius: 999px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#egg-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

@@ -1,0 +1,17 @@
+/* ===== Scroll reveal — content fades/slides in as it enters the viewport ===== */
+.sr-reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.sr-reveal.sr-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Never hide content for users who prefer reduced motion or have no JS. */
+@media (prefers-reduced-motion: reduce) {
+  .sr-reveal { opacity: 1 !important; transform: none !important; transition: none; }
+}

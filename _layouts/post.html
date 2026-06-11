@@ -23,6 +23,8 @@ layout: base
 <link rel="stylesheet" href="{{ '/assets/css/related-posts.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/star-rating.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/resume-reading.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/read-aloud.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/scroll-reveal.css' | relative_url }}">
 
 {% include toc.html %}
 
@@ -80,6 +82,29 @@ layout: base
         %}
       </div>
       {% endif %}
+
+      <!-- Read aloud (Text-to-Speech) -->
+      <div class="read-aloud-box" id="read-aloud">
+        <div class="ra-row">
+          <span class="ra-label">🔊 Lười đọc?</span>
+          <button type="button" class="ra-btn ra-play">▶︎ Nghe bài viết</button>
+          <button type="button" class="ra-btn ra-stop">■ Dừng</button>
+          <span class="ra-rate">
+            Tốc độ
+            <select aria-label="Tốc độ đọc">
+              <option value="0.8">0.8x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+            </select>
+          </span>
+        </div>
+        <div class="ra-row ra-voice">
+          🎙️ Giọng đọc
+          <select aria-label="Chọn giọng đọc"></select>
+        </div>
+        <div class="ra-hint" style="display:none"></div>
+      </div>
 
       <article role="main" class="blog-post">{{ content }}</article>
 
@@ -219,6 +244,8 @@ layout: base
 <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/star-rating.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/resume-reading.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/read-aloud.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/scroll-reveal.js' | relative_url }}"></script>
 <script>
   // Ẩn loading dots khi giscus iframe xuất hiện
   (function () {

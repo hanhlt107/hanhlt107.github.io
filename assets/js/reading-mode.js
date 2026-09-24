@@ -1,17 +1,9 @@
-/* ===== Reading Mode (Lo-fi Spotify + focus dim) =====
- * Static-site friendly: state persists in localStorage so the chosen
- * playlist + open/closed + focus-dim survive page navigation.
- *
- * To change/add playlists, edit PLAYLISTS below. Each `id` is the
- * Spotify playlist id from its share URL:
- *   https://open.spotify.com/playlist/<ID>  ->  use <ID>
- */
 (function () {
   var PLAYLISTS = [
-    { key: 'lofi',  label: 'Yên',     id: '2ay3bL886EFcjPp473EExe' }, // Lofi Beats
-    { key: 'rap',  label: 'Rap', id: '1XwJp9atSdQKLcQVK2Hlk5' }, // Coffee Table Jazz
-    { key: 'han-trung', label: 'Quốc',     id: '2VokJxe3KnyTg1lcNTZv6B' }, // Peaceful Piano
-    { key: 'chill',  label: 'Chill', id: '7w1sF2SFEUjG6uqSooO0o5' }  // Nature/Rain-ish chill
+    { key: 'lofi',  label: 'Yên',     id: '2ay3bL886EFcjPp473EExe' },
+    { key: 'us-uk',  label: 'US-UK', id: '22tG2U1D69EgpIRutSYkl9' },
+    { key: 'han-trung', label: 'Hàn',     id: '2VokJxe3KnyTg1lcNTZv6B' },
+    { key: 'chill',  label: 'Chill', id: '7w1sF2SFEUjG6uqSooO0o5' }
   ];
 
   var LS_OPEN  = 'rm_open';
@@ -32,7 +24,6 @@
     return PLAYLISTS[0];
   }
 
-  // ---- Build DOM ----
   var btn = document.createElement('button');
   btn.id = 'reading-mode-btn';
   btn.type = 'button';
@@ -68,7 +59,6 @@
   var closeBtn = panel.querySelector('.rm-close');
   var chipEls  = panel.querySelectorAll('.rm-chip');
 
-  // ---- State sync ----
   var iframeLoaded = false;
 
   function loadIframe() {
@@ -97,10 +87,8 @@
     panel.classList.remove('open');
     btn.classList.remove('active');
     set(LS_OPEN, '0');
-    // Note: iframe stays loaded so music keeps playing; only the panel hides.
   }
 
-  // ---- Events ----
   btn.addEventListener('click', function () {
     if (panel.classList.contains('open')) closePanel();
     else openPanel();
@@ -114,19 +102,16 @@
     });
   });
 
-  // Click outside the panel (and not on the toggle button) closes it.
   document.addEventListener('mousedown', function (e) {
     if (!panel.classList.contains('open')) return;
     if (panel.contains(e.target) || btn.contains(e.target)) return;
     closePanel();
   });
 
-  // Esc also closes.
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && panel.classList.contains('open')) closePanel();
   });
 
-  // ---- Restore on load ----
   chipEls.forEach(function (c) {
     c.classList.toggle('selected', c.getAttribute('data-key') === currentPlaylist().key);
   });

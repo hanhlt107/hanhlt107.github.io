@@ -1,18 +1,12 @@
 #toc-nav {
   position: fixed;
-  top: 100px;
-  /* Bám lề phải, nhưng không bao giờ tràn ra ngoài hay đè nội dung.
-     Ưu tiên nằm cạnh cột nội dung (rộng ~960px); nếu không đủ chỗ thì
-     cách mép phải 20px. */
-  right: max(20px, calc((100vw - 960px) / 2 - 220px));
-  width: 200px;
-  max-height: calc(100vh - 140px);
+  top: 120px;
+  right: max(20px, calc((100vw - 960px) / 2 - 240px));
+  width: 220px;
+  max-height: calc(100vh - 160px);
   overflow-y: auto;
-  background: #fff;
-  border: 1px solid #e8eaed;
-  border-radius: 12px;
-  padding: 14px 0 10px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 2px 0 2px 18px;
+  border-left: 2px solid #e8eaed;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.78rem;
   z-index: 100;
@@ -42,9 +36,8 @@
   text-transform: uppercase;
   letter-spacing: 0.07em;
   color: #888;
-  padding: 0 14px 10px;
-  border-bottom: 1px solid #f0f0f0;
-  margin-bottom: 6px;
+  padding: 0 4px 10px;
+  margin-bottom: 4px;
 }
 
 #toc-list {
@@ -57,12 +50,13 @@
 
 #toc-list a {
   display: block;
-  padding: 5px 14px;
+  padding: 5px 4px 5px 12px;
+  margin-left: -20px;
+  border-left: 2px solid transparent;
   color: #555;
   text-decoration: none;
   line-height: 1.45;
-  border-left: 2px solid transparent;
-  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  transition: color 0.15s, border-color 0.15s;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -70,36 +64,26 @@
 
 #toc-list a:hover {
   color: #008AFF;
-  background: #f5f9ff;
 }
 
-/* H3 indent */
 #toc-list li.toc-h3 a {
-  padding-left: 24px;
+  padding-left: 22px;
   font-size: 0.73rem;
   color: #777;
 }
 
-/* Active — đang đọc section này */
 #toc-list a.active {
   color: #008AFF;
   border-left-color: #008AFF;
-  background: #f0f7ff;
   font-weight: 700;
 }
 
-/* ---- Dark mode ---- */
-body.dark-mode #toc-nav {
-  background: #161b22;
-  border-color: #30363d;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
-}
-body.dark-mode #toc-header { color: #8b949e; border-bottom-color: #30363d; }
+body.dark-mode #toc-nav { border-left-color: #30363d; }
+body.dark-mode #toc-header { color: #8b949e; }
 body.dark-mode #toc-list a { color: #adbac7; }
 body.dark-mode #toc-list li.toc-h3 a { color: #8b949e; }
-body.dark-mode #toc-list a:hover { color: #58a6ff; background: #21262d; }
+body.dark-mode #toc-list a:hover { color: #58a6ff; }
 body.dark-mode #toc-list a.active {
   color: #58a6ff;
   border-left-color: #58a6ff;
-  background: #1c2c44;
 }

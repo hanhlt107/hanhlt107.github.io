@@ -39,17 +39,17 @@
   var links = list.querySelectorAll('a');
   var headingEls = Array.from(headings);
 
-  // Chỉ hiện TOC sau khi đã cuộn qua phần đầu bài (để không đè ảnh bìa).
-  // Mốc: khi heading đầu tiên gần chạm mép trên màn hình.
-  function showThreshold() {
-    return Math.max(headingEls[0].offsetTop - 160, 240);
+  var header = document.querySelector('header.header-section');
+
+  function bannerPassed() {
+    if (!header) return window.pageYOffset > 240;
+    return header.getBoundingClientRect().bottom <= 120;
   }
 
   function onScroll() {
     var y = window.pageYOffset;
 
-    // Ẩn/hiện theo vị trí cuộn
-    if (y > showThreshold()) nav.classList.add('visible');
+    if (bannerPassed()) nav.classList.add('visible');
     else nav.classList.remove('visible');
 
     // Highlight section đang đọc

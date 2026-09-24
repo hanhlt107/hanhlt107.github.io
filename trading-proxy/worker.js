@@ -1,28 +1,6 @@
-/**
- * Cloudflare Worker — Trading data proxy cho blog Jekyll.
- *
- * Vì blog là static site (GitHub Pages), JS phía client KHÔNG gọi thẳng được
- * các API chứng khoán VN / vàng (bị chặn CORS hoặc cần key). Worker này đứng
- * giữa: nhận request từ blog -> gọi API nguồn -> thêm CORS header trả về.
- *
- * Nguồn dữ liệu (đều miễn phí, không cần API key — đã test 2026-06):
- *   - CK VN realtime : api-finfo.vndirect.com.vn  (giá, %thay đổi, OHLC ngày)
- *   - CK VN lịch sử  : dchart-api.vndirect.com.vn  (nến cho biểu đồ)
- *   - Vàng           : api.gold-api.com            (XAU, XAG... USD/oz)
- *   - Forex/Tỷ giá   : open.er-api.com             (USD -> VND, EUR, JPY...)
- *
- * Routes:
- *   GET /vn/quote?symbols=FPT,VCB,VNM   -> giá realtime nhiều mã
- *   GET /vn/history?symbol=FPT&days=90  -> nến ngày cho biểu đồ
- *   GET /gold?symbols=XAU,XAG           -> giá kim loại (USD/oz)
- *   GET /forex?base=USD&symbols=VND,EUR -> tỷ giá
- *   GET /health                         -> kiểm tra worker sống
- */
-
-// CHỈ cho phép các domain này gọi proxy (chống lạm dụng). Sửa cho đúng domain blog của bạn.
 const ALLOWED_ORIGINS = [
   "https://hanhlt107.github.io",
-  "http://localhost:4000",   // jekyll serve local
+  "http://localhost:4000",
   "http://127.0.0.1:4000",
 ];
 
@@ -49,7 +27,6 @@ function err(message, origin, status = 502) {
   return json({ error: message }, origin, status);
 }
 
-// Helper: fetch JSON từ nguồn, có timeout + User-Agent (vài API chặn request không có UA).
 async function fetchJSON(url, init = {}) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), 12000);
@@ -70,9 +47,6 @@ async function fetchJSON(url, init = {}) {
   }
 }
 
-// ---------- Handlers ----------
-
-// CK VN realtime: lấy bản ghi giá mới nhất của mỗi mã.
 async function vnQuote(url, origin) {
   const symbols = (url.searchParams.get("symbols") || "")
     .toUpperCase()
@@ -82,7 +56,6 @@ async function vnQuote(url, origin) {
     .slice(0, 30);
   if (!symbols.length) return err("Thiếu tham số symbols", origin, 400);
 
-  // finfo trả nhiều ngày; lấy 2 ngày gần nhất mỗi mã rồi gom bản mới nhất.
   const codeFilter = symbols.join(",");
   const api =
     "https://api-finfo.vndirect.com.vn/v4/stock_prices?" +
@@ -114,14 +87,13 @@ async function vnQuote(url, origin) {
   return json({ source: "vndirect", quotes: Object.values(latest) }, origin);
 }
 
-// CK VN lịch sử: nến ngày để vẽ biểu đồ.
 async function vnHistory(url, origin) {
   const symbol = (url.searchParams.get("symbol") || "").toUpperCase().trim();
   if (!symbol) return err("Thiếu tham số symbol", origin, 400);
   const days = Math.min(parseInt(url.searchParams.get("days") || "90", 10), 730);
 
   const to = Math.floor(Date.now() / 1000);
-  const from = to - days * 86400 - 86400 * 10; // dư phòng ngày nghỉ
+  const from = to - days * 86400 - 86400 * 10;
   const api =
     "https://dchart-api.vndirect.com.vn/dchart/history?" +
     `symbol=${symbol}&resolution=D&from=${from}&to=${to}`;
@@ -140,7 +112,6 @@ async function vnHistory(url, origin) {
   return json({ source: "vndirect", symbol, candles }, origin);
 }
 
-// Giá kim loại quý (USD/oz).
 async function gold(url, origin) {
   const symbols = (url.searchParams.get("symbols") || "XAU")
     .toUpperCase()
@@ -155,7 +126,7 @@ async function gold(url, origin) {
         return {
           symbol: sym,
           name: d.name,
-          price: d.price, // USD / troy ounce
+          price: d.price,
           updatedAt: d.updatedAt,
         };
       } catch {
@@ -166,8 +137,6 @@ async function gold(url, origin) {
   return json({ source: "gold-api", metals: results }, origin);
 }
 
-// Hàng hoá (vàng, bạc, dầu, xăng, khí, đồng, nông sản...) qua Yahoo Finance.
-// Mỗi mặt hàng là 1 mã future của Yahoo (vd CL=F = dầu WTI).
 const COMMODITY_MAP = {
   gold:     { y: "GC=F", name: "Vàng",       unit: "USD/oz" },
   silver:   { y: "SI=F", name: "Bạc",        unit: "USD/oz" },
@@ -181,7 +150,6 @@ const COMMODITY_MAP = {
 };
 
 async function commodities(url, origin) {
-  // Mặc định: nhóm phổ biến nhất.
   const keys = (url.searchParams.get("symbols") ||
     "gold,silver,wti,brent,gas,gasoline,copper,coffee")
     .toLowerCase()
@@ -218,7 +186,6 @@ async function commodities(url, origin) {
   return json({ source: "yahoo", commodities: results }, origin);
 }
 
-// Forex / tỷ giá.
 async function forex(url, origin) {
   const base = (url.searchParams.get("base") || "USD").toUpperCase().trim();
   const want = (url.searchParams.get("symbols") || "VND,EUR,JPY,CNY,KRW,GBP")
@@ -236,21 +203,11 @@ async function forex(url, origin) {
   );
 }
 
-// ---------- Text-to-Speech (Google Cloud TTS) ----------
-// Đọc bài viết bằng giọng tiếng Việt chất lượng cao. Key giữ trong Worker
-// secret (env.GOOGLE_TTS_KEY), KHÔNG lộ ra trang tĩnh.
-//
-// POST /tts   body: { "text": "...", "voice": "vi-VN-Wavenet-A", "rate": 1 }
-// -> trả về { audioContent: "<base64 mp3>" }  (client phát bằng <audio>)
-//
-// Google TTS giới hạn 5000 ký tự / request, nên client chia nhỏ theo đoạn.
 const TTS_MAX_CHARS = 4800;
-const TTS_DEFAULT_VOICE = "vi-VN-Wavenet-A"; // giọng nữ; Wavenet-B/C/D cũng có
+const TTS_DEFAULT_VOICE = "vi-VN-Wavenet-A";
+const TTS_FREE_MAX = 190;
 
 async function tts(request, origin, env) {
-  if (!env || !env.GOOGLE_TTS_KEY)
-    return err("Worker chưa cấu hình GOOGLE_TTS_KEY", origin, 500);
-
   let body;
   try {
     body = await request.json();
@@ -263,32 +220,13 @@ async function tts(request, origin, env) {
 
   const voiceName = (body.voice || TTS_DEFAULT_VOICE).toString();
   let rate = parseFloat(body.rate);
-  if (!(rate >= 0.25 && rate <= 4)) rate = 1; // Google cho phép 0.25–4.0
+  if (!(rate >= 0.25 && rate <= 4)) rate = 1;
 
-  const payload = {
-    input: { text },
-    voice: { languageCode: "vi-VN", name: voiceName },
-    audioConfig: { audioEncoding: "MP3", speakingRate: rate },
-  };
+  const audioContent = (env && env.GOOGLE_TTS_KEY)
+    ? await ttsGoogleCloud(text, voiceName, rate, env)
+    : await ttsFree(text);
 
-  const res = await fetch(
-    "https://texttospeech.googleapis.com/v1/text:synthesize?key=" +
-      encodeURIComponent(env.GOOGLE_TTS_KEY),
-    {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(payload),
-    }
-  );
-
-  if (!res.ok) {
-    const detail = await res.text().catch(() => "");
-    return err("Lỗi Google TTS: " + res.status + " " + detail.slice(0, 200), origin);
-  }
-
-  const data = await res.json();
-  // Cache mạnh hơn data tài chính: cùng text+voice -> cùng audio.
-  return new Response(JSON.stringify({ audioContent: data.audioContent }), {
+  return new Response(JSON.stringify({ audioContent }), {
     status: 200,
     headers: {
       ...JSON_HEADERS,
@@ -298,7 +236,89 @@ async function tts(request, origin, env) {
   });
 }
 
-// ---------- Router ----------
+async function ttsGoogleCloud(text, voiceName, rate, env) {
+  const payload = {
+    input: { text },
+    voice: { languageCode: "vi-VN", name: voiceName },
+    audioConfig: { audioEncoding: "MP3", speakingRate: 1 },
+  };
+  const res = await fetch(
+    "https://texttospeech.googleapis.com/v1/text:synthesize?key=" +
+      encodeURIComponent(env.GOOGLE_TTS_KEY),
+    {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(payload),
+    }
+  );
+  if (!res.ok) {
+    const detail = await res.text().catch(() => "");
+    throw new Error("Google TTS " + res.status + " " + detail.slice(0, 200));
+  }
+  const data = await res.json();
+  return data.audioContent;
+}
+
+async function ttsFree(text) {
+  const parts = splitForTTS(text, TTS_FREE_MAX);
+  const buffers = [];
+  for (const part of parts) {
+    const u =
+      "https://translate.google.com/translate_tts?ie=UTF-8&tl=vi&client=tw-ob" +
+      "&q=" + encodeURIComponent(part) + "&textlen=" + part.length;
+    const r = await fetch(u, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        Referer: "https://translate.google.com/",
+      },
+    });
+    if (!r.ok) throw new Error("Translate TTS " + r.status);
+    buffers.push(new Uint8Array(await r.arrayBuffer()));
+  }
+  let total = 0;
+  for (const b of buffers) total += b.length;
+  const merged = new Uint8Array(total);
+  let off = 0;
+  for (const b of buffers) { merged.set(b, off); off += b.length; }
+  return bytesToBase64(merged);
+}
+
+function splitForTTS(text, max) {
+  const sentences = text.match(/[^.!?…\n]+[.!?…]?/g) || [text];
+  const out = [];
+  let buf = "";
+  const push = (s) => { if (s.trim()) out.push(s.trim()); };
+  for (let s of sentences) {
+    s = s.trim();
+    if (!s) continue;
+    if (s.length > max) {
+      if (buf) { push(buf); buf = ""; }
+      const words = s.split(/\s+/);
+      let line = "";
+      for (const w of words) {
+        if ((line + " " + w).trim().length > max) { push(line); line = w; }
+        else line = (line + " " + w).trim();
+      }
+      if (line) buf = line;
+    } else if ((buf + " " + s).trim().length > max) {
+      push(buf); buf = s;
+    } else {
+      buf = (buf + " " + s).trim();
+    }
+  }
+  push(buf);
+  return out;
+}
+
+function bytesToBase64(bytes) {
+  let bin = "";
+  const CH = 0x8000;
+  for (let i = 0; i < bytes.length; i += CH) {
+    bin += String.fromCharCode.apply(null, bytes.subarray(i, i + CH));
+  }
+  return btoa(bin);
+}
 
 export default {
   async fetch(request, env) {
@@ -314,7 +334,6 @@ export default {
       });
 
     try {
-      // POST routes (TTS gửi text dài).
       if (request.method === "POST") {
         if (url.pathname === "/tts") return await tts(request, origin, env);
         return err("Route POST không tồn tại", origin, 404);

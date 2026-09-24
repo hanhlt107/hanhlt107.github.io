@@ -1,10 +1,3 @@
-/* Read aloud — high-quality Vietnamese TTS via a Cloudflare Worker proxy
- * (Google Cloud TTS, key kept server-side). Falls back to the browser's
- * built-in speechSynthesis if the proxy is unreachable.
- *
- * Worker route:  POST {PROXY_BASE}/tts  body { text, voice, rate }
- *                -> { audioContent: "<base64 mp3>" }
- */
 (function () {
   var PROXY_BASE = "https://trading-proxy.hanhlt107.workers.dev";
 
@@ -16,30 +9,16 @@
   var playBtn  = box.querySelector('.ra-play');
   var stopBtn  = box.querySelector('.ra-stop');
   var rateSel  = box.querySelector('.ra-rate select');
-  var voiceSel = box.querySelector('.ra-voice select');
   var hint     = box.querySelector('.ra-hint');
+
+  var VOICE = 'vi-VN-Wavenet-A';
 
   var PLAY_LABEL   = '▶︎ Nghe bài viết';
   var PAUSE_LABEL  = '⏸ Tạm dừng';
   var RESUME_LABEL = '▶︎ Tiếp tục';
   var LOAD_LABEL   = '⏳ Đang tải giọng…';
 
-  // Google Vietnamese voices (Wavenet = natural).
-  var VOICES = [
-    { id: 'vi-VN-Wavenet-A', label: 'Nữ (Wavenet A) 🇻🇳' },
-    { id: 'vi-VN-Wavenet-C', label: 'Nữ (Wavenet C) 🇻🇳' },
-    { id: 'vi-VN-Wavenet-B', label: 'Nam (Wavenet B) 🇻🇳' },
-    { id: 'vi-VN-Wavenet-D', label: 'Nam (Wavenet D) 🇻🇳' }
-  ];
-  voiceSel.innerHTML = VOICES.map(function (v) {
-    return '<option value="' + v.id + '">' + v.label + '</option>';
-  }).join('');
-  var savedVoice = localStorage.getItem('ra_voice');
-  if (savedVoice && VOICES.some(function (v) { return v.id === savedVoice; })) voiceSel.value = savedVoice;
-  voiceSel.addEventListener('change', function () { localStorage.setItem('ra_voice', voiceSel.value); reset(); });
-
-  // ---- Collect readable blocks, then group into <=CHUNK char chunks ----
-  var CHUNK = 1800; // keep requests small & responsive
+  var CHUNK = 1800;
   var blockEls = [];
   article.querySelectorAll('p, h1, h2, h3, h4, li, blockquote').forEach(function (el) {
     var txt = (el.innerText || el.textContent || '').replace(/\s+/g, ' ').trim();
@@ -47,7 +26,6 @@
   });
   if (!blockEls.length) { box.style.display = 'none'; return; }
 
-  // Build chunks; each chunk knows which block to highlight (first block in it).
   var chunks = [];
   (function buildChunks() {
     var buf = '', firstBlock = 0, started = false;
@@ -63,12 +41,11 @@
     if (buf.trim()) chunks.push({ text: buf.trim(), blockIndex: firstBlock });
   })();
 
-  // ---- State ----
   var idx = 0;
   var playing = false;
   var audio = new Audio();
-  var cache = {};          // chunkIndex -> object URL (mp3)
-  var useFallback = false; // switched on if the proxy fails
+  var cache = {};
+  var useFallback = false;
   var lastBlock = -1;
 
   function clearHighlight() { blockEls.forEach(function (b) { b.el.classList.remove('ra-speaking'); }); }
@@ -82,13 +59,12 @@
     }
   }
 
-  // ---- Fetch one chunk's audio (cached) ----
   function fetchChunk(i) {
     if (cache[i]) return Promise.resolve(cache[i]);
     return fetch(PROXY_BASE + '/tts', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text: chunks[i].text, voice: voiceSel.value, rate: parseFloat(rateSel.value) || 1 })
+      body: JSON.stringify({ text: chunks[i].text, voice: VOICE, rate: parseFloat(rateSel.value) || 1 })
     })
     .then(function (r) { if (!r.ok) throw new Error('tts ' + r.status); return r.json(); })
     .then(function (d) {
@@ -108,7 +84,6 @@
     return new Blob([bytes], { type: type });
   }
 
-  // ---- Play chunks sequentially ----
   function playFrom(i) {
     if (i >= chunks.length) { stop(); return; }
     idx = i;
@@ -119,12 +94,10 @@
       if (!playing) return;
       playBtn.textContent = PAUSE_LABEL;
       audio.src = url;
-      audio.playbackRate = 1; // rate already baked into the audio by Google
+      audio.playbackRate = parseFloat(rateSel.value) || 1;
       audio.play();
-      // Prefetch next chunk while this one plays.
       if (i + 1 < chunks.length) fetchChunk(i + 1).catch(function () {});
     }).catch(function () {
-      // Proxy failed → fall back to browser voice for the rest.
       useFallback = true;
       startFallback(i);
     });
@@ -132,7 +105,6 @@
 
   audio.addEventListener('ended', function () { if (playing && !useFallback) playFrom(idx + 1); });
 
-  // ---- Fallback: browser speechSynthesis (choppy but works offline) ----
   function startFallback(fromChunk) {
     if (!('speechSynthesis' in window)) { stop(); return; }
     if (hint) {
@@ -154,7 +126,6 @@
     speak(fromChunk);
   }
 
-  // ---- Controls ----
   function startPlaying() {
     playing = true;
     stopBtn.disabled = false;
@@ -173,7 +144,6 @@
   }
 
   function reset() {
-    // Voice/speed changed → drop cached audio so new settings apply.
     var wasPlaying = playing;
     stop();
     Object.keys(cache).forEach(function (k) { URL.revokeObjectURL(cache[k]); });
@@ -183,7 +153,6 @@
 
   playBtn.addEventListener('click', function () {
     if (!playing) {
-      // Resume if paused mid-audio.
       if (!useFallback && audio.src && audio.paused && audio.currentTime > 0 && !audio.ended) {
         playing = true; audio.play(); playBtn.textContent = PAUSE_LABEL; return;
       }
@@ -202,7 +171,11 @@
   stopBtn.addEventListener('click', stop);
   stopBtn.disabled = true;
 
-  rateSel.addEventListener('change', reset);
+  rateSel.addEventListener('change', function () {
+    var r = parseFloat(rateSel.value) || 1;
+    if (!useFallback) audio.playbackRate = r;
+    else if (playing) { window.speechSynthesis.cancel(); startFallback(idx); }
+  });
 
   window.addEventListener('beforeunload', function () {
     audio.pause();

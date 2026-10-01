@@ -1,0 +1,63 @@
+{% if page.series %}
+{% assign series_posts = site.posts | where: "series", page.series | sort: "date" %}
+{% if series_posts.size > 1 %}
+{% assign cur_index = 0 %}
+{% for p in series_posts %}
+{% if p.url == page.url %}{% assign cur_index = forloop.index0 %}{% endif %}
+{% endfor %}
+{% assign prev_index = cur_index | minus: 1 %}
+{% assign next_index = cur_index | plus: 1 %}
+{% assign human_pos = cur_index | plus: 1 %}
+
+<nav class="series-nav" aria-label="Điều hướng chuỗi bài {{ page.series }}">
+  <div class="series-nav-head">
+    <span class="series-nav-badge">📚 Chuỗi bài</span>
+    <span class="series-nav-title">{{ page.series }}</span>
+    <span class="series-nav-count">Bài {{ human_pos }}/{{ series_posts.size }}</span>
+  </div>
+
+  <details class="series-nav-list">
+    <summary>Xem toàn bộ {{ series_posts.size }} bài trong chuỗi</summary>
+    <ol>
+      {% for p in series_posts %}
+      <li{% if p.url == page.url %} class="is-current" aria-current="true"{% endif %}>
+        {% if p.url == page.url %}
+        <span>{{ p.title | strip_html }}</span>
+        {% else %}
+        <a href="{{ p.url | relative_url }}">{{ p.title | strip_html }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+
+  <div class="series-nav-move">
+    {% if cur_index > 0 %}
+    {% assign prev_post = series_posts[prev_index] %}
+    <a class="series-nav-prev" href="{{ prev_post.url | relative_url }}">
+      <span class="series-nav-dir">← Bài trước</span>
+      <span class="series-nav-name">{{ prev_post.title | strip_html }}</span>
+    </a>
+    {% else %}
+    <span class="series-nav-prev is-disabled" aria-hidden="true">
+      <span class="series-nav-dir">← Bài trước</span>
+      <span class="series-nav-name">Đây là bài đầu tiên</span>
+    </span>
+    {% endif %}
+
+    {% if next_index < series_posts.size %}
+    {% assign next_post = series_posts[next_index] %}
+    <a class="series-nav-next" href="{{ next_post.url | relative_url }}">
+      <span class="series-nav-dir">Bài tiếp →</span>
+      <span class="series-nav-name">{{ next_post.title | strip_html }}</span>
+    </a>
+    {% else %}
+    <span class="series-nav-next is-disabled" aria-hidden="true">
+      <span class="series-nav-dir">Bài tiếp →</span>
+      <span class="series-nav-name">Đây là bài cuối cùng</span>
+    </span>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}
+{% endif %}

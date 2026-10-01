@@ -25,6 +25,7 @@ layout: base
 <link rel="stylesheet" href="{{ '/assets/css/resume-reading.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/read-aloud.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/scroll-reveal.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/series-nav.css' | relative_url }}">
 
 {% include toc.html %}
 
@@ -111,7 +112,11 @@ layout: base
         <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
         {% endfor %}
       </div>
-      {% endif %} {% if page.after-content %}
+      {% endif %}
+
+      {% include series-nav.html %}
+
+      {% if page.after-content %}
       <div class="after-content">
         {% for file in page.after-content %} {% include {{ file }} %} {% endfor
         %}

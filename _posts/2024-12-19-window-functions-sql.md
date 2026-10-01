@@ -6,6 +6,7 @@ cover-img: /assets/img/code-sql.jpg
 thumbnail-img: /assets/img/sql-thumb.png
 share-img: /assets/img/sql.bin
 tags: [books, blogs, SQL Server, SQL]
+series: SQL Server
 comments: true
 ---
 

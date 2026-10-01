@@ -12,6 +12,9 @@
 # Name of website
 title: XìngShì
 
+# Website language (used for the html lang attribute)
+language: vi
+
 # Your name to show in the footer
 author: XìngShì
 

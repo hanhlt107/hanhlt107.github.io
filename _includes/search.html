@@ -15,61 +15,87 @@
       <div id="nav-search-exit" title="Đóng (Esc)">✕</div>
     </div>
 
-    <!-- ESC hint -->
-    <div id="search-esc-hint">
-      Nhấn <kbd>Esc</kbd> để đóng &nbsp;·&nbsp; <kbd>Enter</kbd> để mở bài viết
-    </div>
-
     <!-- Results -->
     <ul id="search-results-container"></ul>
 
   </div><!-- /#search-modal -->
 
-  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-  <script>
-    var searchjson = '[ \
-      {% for post in site.posts %} \
-        { \
-          "title"    : "{% if post.title != "" %}{{ post.title | strip_html | escape }}{% else %}{{ post.excerpt | strip_html | escape | strip }}{%endif%}", \
-          "category" : "{{ post.tags | join: \", \" }}", \
-          "url"      : "{{ site.baseurl }}{{ post.url }}", \
-          "date"     : "{{ post.date | date: "%d/%m/%Y" | default: "" }}" \
-        }, \
-      {% endfor %} \
-      {% for page in site.html_pages %}{% if page.title != "{title}" and page.title != "404 - Page not found" %} \
-        { \
-          "title"    : "{% if page.title != "" %}{{ page.title | strip_html | escape }}{% else %}{{ page.excerpt | strip_html | escape | strip }}{% endif %}", \
-          "category" : "{% if page.tags %}{{ page.tags | join: \", \" }}{% else %}page{% endif %}", \
-          "url"      : "{{ site.baseurl }}{{ page.url }}", \
-          "date"     : "{{ page.date | date: \"%d/%m/%Y\" | default: \"\" }}" \
-        }{% unless forloop.last %},{% endunless %} \
-      {% endif %}{% endfor %} \
-    ]';
-    searchjson = JSON.parse(searchjson);
+  <style>
+    .search-result-excerpt {
+      font-size: 0.82rem;
+      color: #8a909c;
+      line-height: 1.45;
+      margin-top: 3px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .search-result-excerpt mark {
+      background: rgba(0, 138, 255, 0.18);
+      color: inherit;
+      padding: 0 2px;
+      border-radius: 3px;
+    }
+  </style>
 
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('nav-search-input'),
-      resultsContainer: document.getElementById('search-results-container'),
-      json: searchjson,
-      searchResultTemplate: '<li><a href="{url}"><span class="search-result-dot"></span><div class="search-result-body"><div class="search-result-title">{title}</div><div class="search-result-meta"><span class="search-result-date">{date}</span><span class="search-result-tags">{category}</span></div></div></a></li>',
-      noResultsText: '<li style="padding:20px 10px;text-align:center;color:#aab0bc;font-size:0.9rem;font-family:Open Sans,sans-serif">Không tìm thấy kết quả nào</li>',
-      limit: 8,
-      fuzzy: false
-    });
+  <script type="module">
+    (function () {
+      var input = document.getElementById('nav-search-input');
+      var container = document.getElementById('search-results-container');
+      if (!input || !container) return;
 
-    // Format tags into pill spans after each render
-    document.getElementById('nav-search-input').addEventListener('input', function() {
-      setTimeout(function() {
-        document.querySelectorAll('.search-result-tags').forEach(function(el) {
-          var raw = el.textContent.trim();
-          if (!raw) { el.innerHTML = ''; return; }
-          el.innerHTML = raw.split(',').map(function(t) {
-            t = t.trim();
-            return t ? '<span class="search-result-tag">' + t + '</span>' : '';
-          }).join('');
-        });
-      }, 50);
-    });
+      var LIMIT = 8;
+      var pagefindPromise = null;
+      var firstUrl = null;
+
+      function getPagefind() {
+        if (!pagefindPromise) {
+          pagefindPromise = import('/pagefind/pagefind.js').catch(function () { return null; });
+        }
+        return pagefindPromise;
+      }
+
+      function noResults(msg) {
+        container.innerHTML =
+          '<li style="padding:20px 10px;text-align:center;color:#aab0bc;font-size:0.9rem;' +
+          'font-family:Open Sans,sans-serif">' + msg + '</li>';
+      }
+
+      function render(items) {
+        if (!items.length) { noResults('Không tìm thấy kết quả nào'); firstUrl = null; return; }
+        firstUrl = items[0].url;
+        container.innerHTML = items.map(function (d) {
+          var title = (d.meta && d.meta.title) ? d.meta.title : d.url;
+          return '<li><a href="' + d.url + '">' +
+            '<span class="search-result-dot"></span>' +
+            '<div class="search-result-body">' +
+              '<div class="search-result-title">' + title + '</div>' +
+              '<div class="search-result-excerpt">' + (d.excerpt || '') + '</div>' +
+            '</div></a></li>';
+        }).join('');
+      }
+
+      var timer = null;
+      input.addEventListener('input', function () {
+        var query = input.value.trim();
+        clearTimeout(timer);
+        if (!query) { container.innerHTML = ''; firstUrl = null; return; }
+        timer = setTimeout(function () {
+          getPagefind().then(function (pf) {
+            if (!pf) { noResults('Tìm kiếm chỉ hoạt động trên bản đã xuất bản.'); return; }
+            pf.search(query).then(function (search) {
+              var slice = search.results.slice(0, LIMIT);
+              Promise.all(slice.map(function (r) { return r.data(); })).then(render);
+            });
+          });
+        }, 150);
+      });
+
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' && firstUrl) { window.location.href = firstUrl; }
+      });
+    })();
   </script>
 </div>
 

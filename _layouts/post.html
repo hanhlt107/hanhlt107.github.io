@@ -102,7 +102,7 @@ layout: base
         <div class="ra-hint" style="display:none"></div>
       </div>
 
-      <article role="main" class="blog-post">{{ content }}</article>
+      <article role="main" class="blog-post" data-pagefind-body data-pagefind-meta="title:{{ page.title | strip_html | escape }}">{{ content }}</article>
 
       {% if page.tags.size > 0 %}
       <div class="blog-tags">
